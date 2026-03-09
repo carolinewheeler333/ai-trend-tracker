@@ -1,6 +1,6 @@
 {
   "date": "2026-03-09",
-  "generated_at": "2026-03-09T14:44:02.370652+00:00",
+  "generated_at": "2026-03-09T15:11:51.855239+00:00",
   "article_count": 30,
   "briefings": {
     "industry": "",
@@ -107,6 +107,14 @@
     {
       "source": "TechCrunch AI",
       "category": "industry",
+      "title": "Sandberg, Clegg join Nscale board as this \u2018Stargate Norway\u2019 startup hits $14.6B  valuation",
+      "link": "https://techcrunch.com/2026/03/09/sandberg-clegg-join-nscale-board-as-this-stargate-norway-startup-hits-14-6b-valuation/",
+      "raw_summary": "Nvidia-backed British AI infrastructure startup Nscale has raised another megaround of $2 billion.",
+      "summary": "Nvidia-backed British AI infrastructure startup Nscale has raised another megaround of $2 billion."
+    },
+    {
+      "source": "TechCrunch AI",
+      "category": "industry",
       "title": "Will the Pentagon\u2019s Anthropic controversy scare startups away from defense work?",
       "link": "https://techcrunch.com/2026/03/08/will-the-pentagons-anthropic-controversy-scare-startups-away-from-defense-work/",
       "raw_summary": "On the latest episode of TechCrunch\u2019s Equity podcast, we discussed what the controversy means for other startups seeking to work with the federal government.",
@@ -143,14 +151,6 @@
       "link": "https://techcrunch.com/2026/03/07/grammarlys-expert-review-is-just-missing-the-actual-experts/",
       "raw_summary": "A recently-added feature in Grammarly purports to improve users\u2019 writing with help from the world's great writers and thinkers \u2014 and some tech journalists, too.",
       "summary": "A recently-added feature in Grammarly purports to improve users\u2019 writing with help from the world's great writers and thinkers \u2014 and some tech journalists, too."
-    },
-    {
-      "source": "TechCrunch AI",
-      "category": "industry",
-      "title": "OpenAI hardware exec Caitlin Kalinowski quits in response to Pentagon deal",
-      "link": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
-      "raw_summary": "Hardware executive Caitlin Kalinowski announced today that in response to OpenAI's controversial agreement with the Department of Defense, she\u2019s resigned from her role leading the company's robotics team.",
-      "summary": "Hardware executive Caitlin Kalinowski announced today that in response to OpenAI's controversial agreement with the Department of Defense, she\u2019s resigned from her role leading the company's robotics team."
     },
     {
       "source": "VentureBeat AI",
