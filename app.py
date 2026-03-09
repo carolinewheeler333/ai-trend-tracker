@@ -329,8 +329,12 @@ def render_articles(items, delay_start=0):
     for i, a in enumerate(items):
         colour  = SOURCE_COLOURS.get(a["source"], "#555")
         summary = a.get("summary") or a.get("raw_summary", "")
-        if ". " in summary:
-            summary = summary.split(". ")[0] + "."
+        # Trim to one clean sentence, max 160 chars
+        summary = summary.split(". ")[0].strip()
+        if len(summary) > 160:
+            summary = summary[:157] + "..."
+        if summary and not summary.endswith("."):
+            summary += "."
         delay   = delay_start + i * 0.07
         st.markdown(f"""
         <div class="article" style="animation-delay:{delay:.2f}s;">
