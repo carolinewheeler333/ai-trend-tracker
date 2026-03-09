@@ -15,7 +15,16 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=UnifrakturMaguntia&family=Inter:wght@300;400;500;600&display=swap');
 
 /* ── Reset & base ── */
-.stApp { background: #F5F0E8; color: #1a1a1a; }
+body,
+.stApp,
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"],
+[data-testid="stMainBlockContainer"],
+section[data-testid="stSidebar"],
+.main .block-container {
+  background-color: #F5F0E8 !important;
+  color: #1a1a1a !important;
+}
 .block-container { padding-top: 0 !important; max-width: 1100px; }
 h1,h2,h3 { font-family: 'Playfair Display', Georgia, serif; }
 .stMultiSelect [data-baseweb="select"] > div,
