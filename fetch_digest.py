@@ -66,13 +66,13 @@ def summarise_with_groq(articles: list[dict]) -> list[dict]:
                 messages=[{
                     "role": "user",
                     "content": (
-                        f"Summarise this AI news article in 2 clear sentences. "
+                        f"Summarise this AI news article in 1 clear sentence. "
                         f"Be direct and specific. No fluff.\n\n"
                         f"Title: {article['title']}\n"
                         f"Content: {article['raw_summary']}"
                     )
                 }],
-                max_tokens=120,
+                max_tokens=80,
                 temperature=0.3,
             )
             article["summary"] = response.choices[0].message.content.strip()
@@ -84,13 +84,45 @@ def summarise_with_groq(articles: list[dict]) -> list[dict]:
     return articles
 
 
-def save_digest(articles: list[dict]) -> None:
+def generate_briefing(articles: list[dict]) -> str:
+    api_key = os.getenv("GROQ_API_KEY")
+    if not api_key:
+        return ""
+
+    from groq import Groq
+    client = Groq(api_key=api_key)
+
+    headlines = "\n".join(f"- {a['title']}" for a in articles[:20])
+    try:
+        response = client.chat.completions.create(
+            model="llama3-8b-8192",
+            messages=[{
+                "role": "user",
+                "content": (
+                    "You are an AI editor writing a daily briefing for an AI researcher. "
+                    "Based on these headlines, write a 3-4 sentence paragraph summarising "
+                    "the key themes and most important developments in AI today. "
+                    "Be specific, intelligent, and direct. No fluff.\n\n"
+                    f"Headlines:\n{headlines}"
+                )
+            }],
+            max_tokens=200,
+            temperature=0.4,
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"Briefing generation error: {e}")
+        return ""
+
+
+def save_digest(articles: list[dict], briefing: str = "") -> None:
     DIGEST_DIR.mkdir(exist_ok=True)
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     digest = {
         "date": today,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "article_count": len(articles),
+        "briefing": briefing,
         "articles": articles,
     }
     # Save dated copy + latest
@@ -104,4 +136,6 @@ if __name__ == "__main__":
     articles = fetch_articles()
     print(f"\nFetched {len(articles)} articles. Summarising...\n")
     articles = summarise_with_groq(articles)
-    save_digest(articles)
+    print("\nGenerating daily briefing...\n")
+    briefing = generate_briefing(articles)
+    save_digest(articles, briefing)
