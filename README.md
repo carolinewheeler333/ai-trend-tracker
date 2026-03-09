@@ -1,45 +1,51 @@
-# 🤖 AI Trend Tracker
+# The AI Times
 
-A daily digest of what's happening in AI — research papers, product launches, and breakthroughs — pulled from the best sources and summarised with LLaMA 3.
+I built this because I got tired of opening six tabs every morning to figure out what happened in AI overnight.
 
-**Live app →** *(link once deployed on Streamlit Cloud)*
+The AI Times pulls from ArXiv, TechCrunch, VentureBeat, MIT Tech Review, and Wired every day at 7am UTC, runs the headlines through LLaMA 3 (via Groq's free API), and produces two things: a written briefing that synthesises the day's industry news and research separately, and a full two-column newspaper-style feed of every article with a one-sentence summary. The whole thing looks like a newspaper because that's how I want to read news — scannably, with hierarchy.
+
+The daily update is fully automated via GitHub Actions. A workflow runs every morning, fetches the feeds, calls Groq, and commits the new digest JSON to the repo. Streamlit Cloud picks it up and redeploys automatically.
+
+**Live →** *(add your Streamlit Cloud URL here)*
 
 ---
 
-## What it does
-
-- Fetches the latest AI news daily from ArXiv, TechCrunch, VentureBeat, The Verge, and MIT Tech Review
-- Summarises each article in 2 sentences using Groq's free LLaMA 3 API
-- Commits the digest to the repo automatically via GitHub Actions
-- Displays everything in a clean, searchable Streamlit app
-
 ## Stack
 
-`Python` · `Streamlit` · `Groq (LLaMA 3)` · `feedparser` · `GitHub Actions`
+`Python` · `Streamlit` · `Groq API (LLaMA 3)` · `feedparser` · `GitHub Actions`
 
-## Setup
+## Sources
 
-**1. Clone the repo**
+| Source | Category |
+|---|---|
+| ArXiv cs.AI | Research |
+| ArXiv cs.LG | Research |
+| TechCrunch AI | Industry |
+| VentureBeat AI | Industry |
+| MIT Tech Review | Industry |
+| Wired AI | Industry |
+
+## Run it yourself
+
 ```bash
 git clone https://github.com/carolinewheeler333/ai-trend-tracker
 cd ai-trend-tracker
 pip install -r requirements.txt
+
+# Optional: add your free Groq key for AI summaries
+export GROQ_API_KEY=your_key_here   # get one free at console.groq.com
+
+python fetch_digest.py   # fetch today's news
+streamlit run app.py     # open the app
 ```
 
-**2. Add your Groq API key**
+## Automated daily updates
 
-Get a free key at [console.groq.com](https://console.groq.com) then add it as a GitHub secret:
-- Repo → Settings → Secrets and variables → Actions → New repository secret
-- Name: `GROQ_API_KEY`
+A GitHub Action runs every day at 7am UTC. To use it:
 
-**3. Run locally**
-```bash
-python fetch_digest.py     # fetch + summarise today's news
-streamlit run app.py       # launch the app
-```
+1. Add `GROQ_API_KEY` as a repository secret (Settings → Secrets → Actions)
+2. Enable **Read and write** workflow permissions (Settings → Actions → General)
+3. Trigger manually first: Actions → Daily AI Digest → Run workflow
 
-## Automated updates
+After the first run, it updates itself every morning without you touching anything.
 
-A GitHub Action runs every day at 7am UTC, fetches the latest news, and commits `digest/latest.json` to the repo. The Streamlit app always reads from that file.
-
-To trigger manually: Actions → Daily AI Digest → Run workflow
