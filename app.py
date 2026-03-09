@@ -315,9 +315,9 @@ if briefings.get("industry") or briefings.get("research"):
 all_sources = sorted(set(a["source"] for a in articles))
 f1, f2 = st.columns([4, 1])
 with f1:
-    selected = st.multiselect("Sources", all_sources, default=all_sources, label_visibility="collapsed")
+    selected = st.multiselect("Sources", all_sources, default=all_sources, label_visibility="collapsed", key="source_filter")
 with f2:
-    search = st.text_input("Search", placeholder="Search...", label_visibility="collapsed")
+    search = st.text_input("Search", placeholder="Search...", label_visibility="collapsed", key="search_input")
 
 industry_f = [a for a in industry if a["source"] in selected and
               (not search or search.lower() in a["title"].lower())]
