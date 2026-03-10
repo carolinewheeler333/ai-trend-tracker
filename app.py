@@ -1,4 +1,5 @@
 import json
+import re
 import streamlit as st
 from pathlib import Path
 from datetime import datetime
@@ -69,9 +70,12 @@ body, .stApp,
   animation: fadeIn 1s ease forwards;
 }
 .masthead-title {
-  font-family: 'UnifrakturMaguntia', serif;
-  font-size: 4rem;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 4.2rem;
+  font-weight: 900;
   color: #1a1a1a;
+  letter-spacing: 6px;
+  text-transform: uppercase;
   line-height: 1;
   margin: 0;
 }
@@ -282,13 +286,17 @@ research  = [a for a in articles if a.get("category") == "research"]
 
 # Overall summary
 overall = briefings.get("overall", "")
-if overall:
-    st.markdown(f"""
-    <div class="overall-summary">
-      <div class="overall-eyebrow">Today in AI</div>
-      <div class="overall-body">{overall}</div>
-    </div>
-    """, unsafe_allow_html=True)
+n_industry = len(industry)
+n_research = len(research)
+sources_today = sorted(set(a["source"] for a in articles))
+fallback = f"{len(articles)} stories today across {len(sources_today)} sources — {n_industry} industry updates and {n_research} research papers. Trigger the daily digest action to generate AI summaries."
+display_overall = overall if overall else fallback
+st.markdown(f"""
+<div class="overall-summary">
+  <div class="overall-eyebrow">Today in AI</div>
+  <div class="overall-body">{display_overall}</div>
+</div>
+""", unsafe_allow_html=True)
 
 # Per-category briefings
 if briefings.get("industry") or briefings.get("research"):
@@ -315,15 +323,23 @@ industry_f = [a for a in industry if a["source"] in selected and (not search or 
 research_f = [a for a in research if a["source"] in selected and (not search or search.lower() in a["title"].lower())]
 
 # Articles
+def clean_summary(text: str) -> str:
+    # Strip ArXiv announce prefix
+    text = re.sub(r'arXiv:\S+\s+Announce Type:\s+\w+\s+Abstract:\s*', '', text or '')
+    text = re.sub(r'Announce Type:\s+\w+\s+Abstract:\s*', '', text)
+    text = text.strip()
+    # Trim to one sentence, max 160 chars
+    text = text.split(". ")[0].strip()
+    if len(text) > 160:
+        text = text[:157] + "..."
+    if text and not text.endswith("."):
+        text += "."
+    return text
+
 def render_articles(items, delay_start=0.3):
     for i, a in enumerate(items):
         colour  = SOURCE_COLOURS.get(a["source"], "#3D3D3D")
-        summary = a.get("summary") or a.get("raw_summary", "")
-        summary = summary.split(". ")[0].strip()
-        if len(summary) > 160:
-            summary = summary[:157] + "..."
-        if summary and not summary.endswith("."):
-            summary += "."
+        summary = clean_summary(a.get("summary") or a.get("raw_summary", ""))
         delay = delay_start + i * 0.06
         st.markdown(f"""
         <div class="article" style="animation-delay:{delay:.2f}s;">

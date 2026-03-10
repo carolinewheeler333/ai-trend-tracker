@@ -28,7 +28,11 @@ DIGEST_DIR = Path(__file__).parent / "digest"
 
 
 def clean_html(text: str) -> str:
-    return re.sub(r"<[^>]+>", "", text or "").strip()
+    text = re.sub(r"<[^>]+>", "", text or "").strip()
+    # Strip ArXiv announce prefix
+    text = re.sub(r'arXiv:\S+\s+Announce Type:\s+\w+\s+Abstract:\s*', '', text)
+    text = re.sub(r'Announce Type:\s+\w+\s+Abstract:\s*', '', text)
+    return text.strip()
 
 
 def fetch_articles() -> list[dict]:
