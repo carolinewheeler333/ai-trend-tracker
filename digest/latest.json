@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-16",
-  "generated_at": "2026-10-16T12:04:35.087163+00:00",
-  "article_count": 24,
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T11:20:07.096648+00:00",
+  "article_count": 18,
   "briefings": {
     "industry": "",
     "research": "",
@@ -57,108 +57,76 @@
       "summary": "Representation-based safety defenses for vision-language models (VLMs) often learn to separate harmful from benign inputs, but separation alone does not establish what a risk score means or when it should be trusted. We introduce Counterfactual Neighborhood Risk Fields (CNRF), an evidence-grounded framework for selective VLM safety. CNRF constructs context-matched benign-harmful counterfactual pairs, uses their representation differences as capability-related risk directions, and estimates neighborhood support separately from risk. This separation prevents unfamiliarity from being conflated wi"
     },
     {
-      "source": "ArXiv ML",
-      "category": "research",
-      "title": "FlowBudget: Training-Free Sampling-Budget Estimation for Flow Matching Models",
-      "link": "https://arxiv.org/abs/2610.20636",
-      "raw_summary": "Sampling from continuous flow-based generators such as flow matching models requires numerical ODE or SDE integration, making inference cost depend on the number of function evaluations (NFEs). In practice, the sampling budget is inherited from prior work or selected through expensive FID-versus-NFE sweeps, using FID to assess image-generation quality, requiring sample generation and evaluation at multiple budgets. This makes sampling-budget selection dependent on repeated empirical evaluation. We therefore ask a complementary question to solver design and timestep allocation: for a fixed pret",
-      "summary": "Sampling from continuous flow-based generators such as flow matching models requires numerical ODE or SDE integration, making inference cost depend on the number of function evaluations (NFEs). In practice, the sampling budget is inherited from prior work or selected through expensive FID-versus-NFE sweeps, using FID to assess image-generation quality, requiring sample generation and evaluation at multiple budgets. This makes sampling-budget selection dependent on repeated empirical evaluation. We therefore ask a complementary question to solver design and timestep allocation: for a fixed pret"
-    },
-    {
-      "source": "ArXiv ML",
-      "category": "research",
-      "title": "Expanding Attention: A Taylor-Series Route to Linear-Time Transformers with a Fixed Number of Recurrent States",
-      "link": "https://arxiv.org/abs/2610.20637",
-      "raw_summary": "We expand the exponential kernel of attention into a truncated Taylor series of $n$ terms and factorize each term into a tensor-power inner product, which collapses the causal history into exactly $n$ recurrent states, each updated by one rank-one outer product per token and independent of context length $N$. The recursion is lossless with respect to the truncated kernel ($2.2 \\times 10^{-16}$ in float64), and the states are additive across chunks ($5.7 \\times 10^{-14}$), so prefill admits a parallel scan. Measured exponents are $t \\propto N^{2.28}$ for softmax against $N^{0.91}$ for states, w",
-      "summary": "We expand the exponential kernel of attention into a truncated Taylor series of $n$ terms and factorize each term into a tensor-power inner product, which collapses the causal history into exactly $n$ recurrent states, each updated by one rank-one outer product per token and independent of context length $N$. The recursion is lossless with respect to the truncated kernel ($2.2 \\times 10^{-16}$ in float64), and the states are additive across chunks ($5.7 \\times 10^{-14}$), so prefill admits a parallel scan. Measured exponents are $t \\propto N^{2.28}$ for softmax against $N^{0.91}$ for states, w"
-    },
-    {
-      "source": "ArXiv ML",
-      "category": "research",
-      "title": "Feature Elicitation for SAE Steering of Deceptive Behaviour in Small LLMs",
-      "link": "https://arxiv.org/abs/2610.20638",
-      "raw_summary": "Research on deceptive alignment is becoming increasingly urgent as frontier-model capabilities advance and their risk of causing catastrophic harm increases. Alignment faking is a form of deceptive alignment, with the compliance gap serving as a key behavioural indicator. This behaviour remains understudied in small LLMs and prior mechanistic interventions have not been shown to mitigate the compliance gap. We test whether steering SAE (sparse autoencoders) features associated with deontological ethics can mitigate this behaviour. We use a novel bag-of-words feature elicitation pipeline for SA",
-      "summary": "Research on deceptive alignment is becoming increasingly urgent as frontier-model capabilities advance and their risk of causing catastrophic harm increases. Alignment faking is a form of deceptive alignment, with the compliance gap serving as a key behavioural indicator. This behaviour remains understudied in small LLMs and prior mechanistic interventions have not been shown to mitigate the compliance gap. We test whether steering SAE (sparse autoencoders) features associated with deontological ethics can mitigate this behaviour. We use a novel bag-of-words feature elicitation pipeline for SA"
-    },
-    {
-      "source": "ArXiv ML",
-      "category": "research",
-      "title": "Same Answer, New Box: How Much of RLVR's Out-of-Domain Gain Is Answer Format?",
-      "link": "https://arxiv.org/abs/2610.20639",
-      "raw_summary": "Reinforcement learning with verifiable rewards (RLVR) is credited with gains beyond the domain its rewards check, such as higher MMLU accuracy after training on mathematics. Such accuracies are usually read out of the model's text by an answer extractor. A model that learns to write its answer where the extractor looks can therefore score higher without answering better. We measure how much of the gain reported by extractors copied from public code arises this way. We generate outputs from a base model and its RL model and score them twice: with those extractors, and with one extractor of our ",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) is credited with gains beyond the domain its rewards check, such as higher MMLU accuracy after training on mathematics. Such accuracies are usually read out of the model's text by an answer extractor. A model that learns to write its answer where the extractor looks can therefore score higher without answering better. We measure how much of the gain reported by extractors copied from public code arises this way. We generate outputs from a base model and its RL model and score them twice: with those extractors, and with one extractor of our "
-    },
-    {
-      "source": "ArXiv ML",
-      "category": "research",
-      "title": "KNOU-Flood: Advancing global streamflow forecasting with lead-aware probabilistic machine learning",
-      "link": "https://arxiv.org/abs/2610.20640",
-      "raw_summary": "Global streamflow forecasting supports flood preparedness, yet data-driven models trained on reanalysis lose skill when driven by operational forecasts, increasingly so with lead time. AIFL addresses this shift with a two-stage transfer-learning recipe and a deterministic LSTM, but it feeds one forecast lead time into the whole input window and gives no uncertainty. We ask how far this open recipe can be extended without changing its recurrent core. KNOU-Flood keeps a single-layer LSTM and the two-stage training and changes the information around it: a longer input window (424 days), lead-awar",
-      "summary": "Global streamflow forecasting supports flood preparedness, yet data-driven models trained on reanalysis lose skill when driven by operational forecasts, increasingly so with lead time. AIFL addresses this shift with a two-stage transfer-learning recipe and a deterministic LSTM, but it feeds one forecast lead time into the whole input window and gives no uncertainty. We ask how far this open recipe can be extended without changing its recurrent core. KNOU-Flood keeps a single-layer LSTM and the two-stage training and changes the information around it: a longer input window (424 days), lead-awar"
-    },
-    {
-      "source": "ArXiv ML",
-      "category": "research",
-      "title": "Spectral Indistinguishability and Learning-Curve Identifiability in Quadratic Networks",
-      "link": "https://arxiv.org/abs/2610.20678",
-      "raw_summary": "We study what spectral summaries and scalar learning curves reveal about centered quadratic networks. We construct analytic positive input densities with exactly Gaussian one- and two-coordinate marginals. Their complete fourth-moment operators are intertwined by an orthogonal map fixing the entire diagonal teacher algebra, so the corresponding anchored spectral measures agree. For selected common teachers with a nonzero cycle invariant, their factorized loss curves differ because the map does not preserve matrix multiplication. Cycle length $r$, which can be arbitrarily large, gives $O(\\varep",
-      "summary": "We study what spectral summaries and scalar learning curves reveal about centered quadratic networks. We construct analytic positive input densities with exactly Gaussian one- and two-coordinate marginals. Their complete fourth-moment operators are intertwined by an orthogonal map fixing the entire diagonal teacher algebra, so the corresponding anchored spectral measures agree. For selected common teachers with a nonzero cycle invariant, their factorized loss curves differ because the map does not preserve matrix multiplication. Cycle length $r$, which can be arbitrarily large, gives $O(\\varep"
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "raw_summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+      "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "When it came to Cal AI\u2019s viral success, a small army of influencers paid off",
-      "link": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
-      "raw_summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
-      "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March."
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "raw_summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Meta launches an open-weight AI model that runs on Macs",
-      "link": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-      "raw_summary": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
-      "summary": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon."
+      "title": "An Nvidia insider-turned-VC on why robotics hasn\u2019t hit its ChatGPT moment, yet",
+      "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "raw_summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA\u2019s robotics platforms, says robotics is currently in its \u201cLego era,\u201d with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA\u2019s robotics platforms, says robotics is currently in its \u201cLego era,\u201d with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]"
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
-      "link": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-      "raw_summary": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands.",
-      "summary": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands."
+      "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+      "link": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+      "raw_summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA\u2019s robotics platforms, says robotics is currently in its \u201cLego era,\u201d with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA\u2019s robotics platforms, says robotics is currently in its \u201cLego era,\u201d with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]"
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
-      "link": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-      "raw_summary": "METR will publish its own assessments of Anthropic\u2019s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
-      "summary": "METR will publish its own assessments of Anthropic\u2019s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them."
+      "title": "Elorian\u2019s first AI model wants to reason with images, not just about them",
+      "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "raw_summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+      "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
-      "link": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
-      "raw_summary": "Bluesky is bringing \u201csocial vibe coding\u201d to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social network's audience.",
-      "summary": "Bluesky is bringing \u201csocial vibe coding\u201d to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social network's audience."
+      "title": "Jev is Vercel\u2019s fastest-adopted AI model ever",
+      "link": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "raw_summary": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
+      "summary": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter."
     },
     {
-      "source": "TechCrunch AI",
+      "source": "MIT Tech Review",
       "category": "industry",
-      "title": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
-      "link": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
-      "raw_summary": "Savings of up to $200 end October 16 for TechCrunch Founder Summit. These savings for Founder and Investor Passes vanish after Friday. Join 1,000 founders and investors on November 4 at Boston\u2019s SoWa Power Station. Bring your toughest questions and make the day count for your business.",
-      "summary": "Savings of up to $200 end October 16 for TechCrunch Founder Summit. These savings for Founder and Investor Passes vanish after Friday. Join 1,000 founders and investors on November 4 at Boston\u2019s SoWa Power Station. Bring your toughest questions and make the day count for your business."
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "raw_summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn\u2019t yet an example of AI-generated life, but that could be next. Watch&#8230;",
+      "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn\u2019t yet an example of AI-generated life, but that could be next. Watch&#8230;"
+    },
+    {
+      "source": "MIT Tech Review",
+      "category": "industry",
+      "title": "The Download: failed social media bans, and extending pets\u2019 lives",
+      "link": "https://www.technologyreview.com/2026/10/16/1146864/the-download-failed-social-media-bans-and-extending-pets-lives/",
+      "raw_summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Kids are outsmarting social media bans. That\u2019s not a problem we need to solve.\u00a0\u00a0 \u2014Michal Luria, Aliya Bhatia, and Danah Boyd Social media bans are stacking up. In July, France joined&#8230;",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Kids are outsmarting social media bans. That\u2019s not a problem we need to solve.\u00a0\u00a0 \u2014Michal Luria, Aliya Bhatia, and Danah Boyd Social media bans are stacking up. In July, France joined&#8230;"
     },
     {
       "source": "MIT Tech Review",
       "category": "industry",
       "title": "This implant can restore sight for patients with macular degeneration",
       "link": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
-      "raw_summary": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The Prima system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-\u00adequipped eyeglasses to improve sight in patients&#8230;",
-      "summary": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The Prima system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-\u00adequipped eyeglasses to improve sight in patients&#8230;"
+      "raw_summary": "More than 5 million people around the world with age-related macular degeneration (AMD) experience atrophy in their retinas. And until now, no treatment could restore their vision. The PRIMA system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-\u00adequipped eyeglasses&#8230;",
+      "summary": "More than 5 million people around the world with age-related macular degeneration (AMD) experience atrophy in their retinas. And until now, no treatment could restore their vision. The PRIMA system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-\u00adequipped eyeglasses&#8230;"
     },
     {
       "source": "MIT Tech Review",
@@ -183,22 +151,6 @@
       "link": "https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve/",
       "raw_summary": "Social media bans are stacking up. In July, France joined Australia in restricting minors from accessing social media\u2014barring children under 15 from major platforms, before the ban was blocked by the country\u2019s top court on human rights grounds. The UK aims to forbid kids under 16 from accessing Facebook, TikTok, and other platforms in early&#8230;",
       "summary": "Social media bans are stacking up. In July, France joined Australia in restricting minors from accessing social media\u2014barring children under 15 from major platforms, before the ban was blocked by the country\u2019s top court on human rights grounds. The UK aims to forbid kids under 16 from accessing Facebook, TikTok, and other platforms in early&#8230;"
-    },
-    {
-      "source": "MIT Tech Review",
-      "category": "industry",
-      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
-      "link": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
-      "raw_summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Pig kidneys that were \u201cfrozen\u201d for a year have been brought back to life Pig kidneys that were cooled to -150 \u00b0C and stored in a freezer for months have been&#8230;",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Pig kidneys that were \u201cfrozen\u201d for a year have been brought back to life Pig kidneys that were cooled to -150 \u00b0C and stored in a freezer for months have been&#8230;"
-    },
-    {
-      "source": "MIT Tech Review",
-      "category": "industry",
-      "title": "How much more can nuclear power plants give?",
-      "link": "https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/",
-      "raw_summary": "In this age of rising electricity demand, people are trying to squeeze every last bit of power out of every power plant possible. Over the past few weeks, there\u2019s been big news about nuclear power plants trying to do just that. Constellation, the largest nuclear operator in the US, announced plans to add nearly a&#8230;",
-      "summary": "In this age of rising electricity demand, people are trying to squeeze every last bit of power out of every power plant possible. Over the past few weeks, there\u2019s been big news about nuclear power plants trying to do just that. Constellation, the largest nuclear operator in the US, announced plans to add nearly a&#8230;"
     }
   ]
 }
