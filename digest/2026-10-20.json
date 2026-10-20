@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T12:30:38.191623+00:00",
+  "article_count": 24,
+  "briefings": {
+    "industry": "",
+    "research": "",
+    "overall": ""
+  },
+  "articles": [
+    {
+      "source": "ArXiv AI",
+      "category": "research",
+      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
+      "link": "https://arxiv.org/abs/2610.23866",
+      "raw_summary": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss. This allows us to compare the accuracy and features of responses across model providers and versions. We account for daily variations in model accuracy, capturing both model progress and degradation, for instance, when a model is changed post-deployment or when a new model i",
+      "summary": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss. This allows us to compare the accuracy and features of responses across model providers and versions. We account for daily variations in model accuracy, capturing both model progress and degradation, for instance, when a model is changed post-deployment or when a new model i"
+    },
+    {
+      "source": "ArXiv AI",
+      "category": "research",
+      "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
+      "link": "https://arxiv.org/abs/2610.23921",
+      "raw_summary": "There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more. However, little is known about when agents are preferable to established alternatives such as local computation, Representational State Transfer (REST), the Simple Object Access Protocol (SOAP), and the Model Context Protocol (MCP), particularly when development speed, performance, and operational cost are considered. We investigate this question using a controlled mathematical task that compares ",
+      "summary": "There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more. However, little is known about when agents are preferable to established alternatives such as local computation, Representational State Transfer (REST), the Simple Object Access Protocol (SOAP), and the Model Context Protocol (MCP), particularly when development speed, performance, and operational cost are considered. We investigate this question using a controlled mathematical task that compares "
+    },
+    {
+      "source": "ArXiv AI",
+      "category": "research",
+      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
+      "link": "https://arxiv.org/abs/2610.23962",
+      "raw_summary": "We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) evidence with reference-based LLM reasoning and deterministic validation. Experiments on a test dataset show that the workflow produces more consistent, evidence-grounded and traceable diagnoses than the same LLM without structured workflow guidance.",
+      "summary": "We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) evidence with reference-based LLM reasoning and deterministic validation. Experiments on a test dataset show that the workflow produces more consistent, evidence-grounded and traceable diagnoses than the same LLM without structured workflow guidance."
+    },
+    {
+      "source": "ArXiv AI",
+      "category": "research",
+      "title": "What Social Media Teaches Us About Accumulative AI Risks",
+      "link": "https://arxiv.org/abs/2610.24006",
+      "raw_summary": "Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks. This position paper argues that there is another type of AI risk that arises and accumulates from the widespread use of AI. Drawing on lessons from social media, we argue that safety assessments must also address accumulative harms that develop through repeated use, recurring decisions, and feedback across interconnected deployments. Repeated reassurance, selective exposure, recurring decision biases, and growing personal profiles may gr",
+      "summary": "Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks. This position paper argues that there is another type of AI risk that arises and accumulates from the widespread use of AI. Drawing on lessons from social media, we argue that safety assessments must also address accumulative harms that develop through repeated use, recurring decisions, and feedback across interconnected deployments. Repeated reassurance, selective exposure, recurring decision biases, and growing personal profiles may gr"
+    },
+    {
+      "source": "ArXiv AI",
+      "category": "research",
+      "title": "Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation",
+      "link": "https://arxiv.org/abs/2610.24010",
+      "raw_summary": "Generative AI is becoming an important medium for artistic creation, yet existing interactions often assume that creators can specify intentions in advance and accurately communicate them through text prompts. Artistic intentions, however, may be vague, latent, or recognizable only after seeing concrete visual possibilities. We propose a human-AI co-creation paradigm beyond explicit intent expression. By expanding model exploration, we expose artists to diverse visual possibilities, allowing them to identify previously unarticulated preferences through observation, comparison, and selection. W",
+      "summary": "Generative AI is becoming an important medium for artistic creation, yet existing interactions often assume that creators can specify intentions in advance and accurately communicate them through text prompts. Artistic intentions, however, may be vague, latent, or recognizable only after seeing concrete visual possibilities. We propose a human-AI co-creation paradigm beyond explicit intent expression. By expanding model exploration, we expose artists to diverse visual possibilities, allowing them to identify previously unarticulated preferences through observation, comparison, and selection. W"
+    },
+    {
+      "source": "ArXiv AI",
+      "category": "research",
+      "title": "Unified Multiparadigm Fusion Intelligence for Rare Disease Diagnosis",
+      "link": "https://arxiv.org/abs/2610.24024",
+      "raw_summary": "Rare diseases (RDs) affect an estimated 300 million people globally, leaving patients to navigate a protracted diagnostic odyssey constrained by clinical scarcity and fragmented medical knowledge. Artificial intelligence (AI) has progressively advanced RD diagnostics, from symbolic methods and deep learning to large language model (LLM)-based systems. However, each paradigm carries structural limitations: symbolic methods are bounded by knowledge completeness, neural models sacrifice interpretability, and LLM-based systems are vulnerable to evaluation biases like data leakage. In this study, w",
+      "summary": "Rare diseases (RDs) affect an estimated 300 million people globally, leaving patients to navigate a protracted diagnostic odyssey constrained by clinical scarcity and fragmented medical knowledge. Artificial intelligence (AI) has progressively advanced RD diagnostics, from symbolic methods and deep learning to large language model (LLM)-based systems. However, each paradigm carries structural limitations: symbolic methods are bounded by knowledge completeness, neural models sacrifice interpretability, and LLM-based systems are vulnerable to evaluation biases like data leakage. In this study, w"
+    },
+    {
+      "source": "ArXiv ML",
+      "category": "research",
+      "title": "Web Agent Agentic Reinforcement Learning Decision Model Under Multi-Cost and Failure Risk",
+      "link": "https://arxiv.org/abs/2610.23857",
+      "raw_summary": "Intelligent agent interactions in real-world web environments are commonly constrained by request budgets, time delays, anti-crawling restrictions, and operational failure risks. Strategies solely optimizing task success rates often exhibit unusable phenomena such as \"high success but high cost\" or \"low risk but conservative failure.\" This paper proposes a constrained agentic reinforcement learning model for web agents, unifying page access, search requests, and external API calls into a unified long-term decision-making framework with associated costs. It simultaneously incorporates cost budg",
+      "summary": "Intelligent agent interactions in real-world web environments are commonly constrained by request budgets, time delays, anti-crawling restrictions, and operational failure risks. Strategies solely optimizing task success rates often exhibit unusable phenomena such as \"high success but high cost\" or \"low risk but conservative failure.\" This paper proposes a constrained agentic reinforcement learning model for web agents, unifying page access, search requests, and external API calls into a unified long-term decision-making framework with associated costs. It simultaneously incorporates cost budg"
+    },
+    {
+      "source": "ArXiv ML",
+      "category": "research",
+      "title": "PolyGraph: Plan-Buffered CUDA Graphs for Adaptive Speculative Decoding",
+      "link": "https://arxiv.org/abs/2610.23861",
+      "raw_summary": "Adaptive speculative decoding changes the active batch size B and draft length d from one decode step to the next, whereas a CUDA Graph replays a fixed launch configuration. The resulting verification width M = B d forces serving systems to pre-capture many shapes, capture new ones on the serving path, or pad every step to the largest draft. We present PolyGraph, a plan-buffer mechanism for custom Triton kernels that avoids this choice. PolyGraph captures one maximum-grid graph and writes the active shape to GPU memory before each replay. Kernels skip tiles beyond that shape, while graph topol",
+      "summary": "Adaptive speculative decoding changes the active batch size B and draft length d from one decode step to the next, whereas a CUDA Graph replays a fixed launch configuration. The resulting verification width M = B d forces serving systems to pre-capture many shapes, capture new ones on the serving path, or pad every step to the largest draft. We present PolyGraph, a plan-buffer mechanism for custom Triton kernels that avoids this choice. PolyGraph captures one maximum-grid graph and writes the active shape to GPU memory before each replay. Kernels skip tiles beyond that shape, while graph topol"
+    },
+    {
+      "source": "ArXiv ML",
+      "category": "research",
+      "title": "Forecasting Patient Trajectories from the Electronic Health Records with Action-Conditioned World Models",
+      "link": "https://arxiv.org/abs/2610.23862",
+      "raw_summary": "We introduce a predictive world model for electronic health records (EHR) that represents patient histories as action conditioned latent trajectories. Rather than modeling clinical events solely through autoregressive token prediction, our framework explicitly separates patient states from observed clinical actions and learns their evolution through a state and action conditioned transition operator. At its core is a state dependent linearization predictor that propagates local changes in latent patient state, enabling time resolved prediction, multi step rollout, and action conditioned simula",
+      "summary": "We introduce a predictive world model for electronic health records (EHR) that represents patient histories as action conditioned latent trajectories. Rather than modeling clinical events solely through autoregressive token prediction, our framework explicitly separates patient states from observed clinical actions and learns their evolution through a state and action conditioned transition operator. At its core is a state dependent linearization predictor that propagates local changes in latent patient state, enabling time resolved prediction, multi step rollout, and action conditioned simula"
+    },
+    {
+      "source": "ArXiv ML",
+      "category": "research",
+      "title": "SAGE-CP: When Marginal Coverage Hides Route-Conditional Failures in Adaptive VLM Ensembles",
+      "link": "https://arxiv.org/abs/2610.23864",
+      "raw_summary": "Adaptive VLM ensembles save computation by stopping early on easy images and escalating harder ones. Although a single conformal threshold can make the final predictor marginally valid, it can still fail severely along individual computational routes. We characterize this failure precisely: if a route has prevalence pi, marginal 1-alpha coverage allows its conditional coverage to fall to max{0, 1-alpha/pi}. To address this mismatch, we learn the router on development data, freeze all routing choices, and calibrate the returned score separately for early exits and escalated inputs. We call this",
+      "summary": "Adaptive VLM ensembles save computation by stopping early on easy images and escalating harder ones. Although a single conformal threshold can make the final predictor marginally valid, it can still fail severely along individual computational routes. We characterize this failure precisely: if a route has prevalence pi, marginal 1-alpha coverage allows its conditional coverage to fall to max{0, 1-alpha/pi}. To address this mismatch, we learn the router on development data, freeze all routing choices, and calibrate the returned score separately for early exits and escalated inputs. We call this"
+    },
+    {
+      "source": "ArXiv ML",
+      "category": "research",
+      "title": "Announced Breaks Separate Conformal Reliability from Frequency Calibration",
+      "link": "https://arxiv.org/abs/2610.23917",
+      "raw_summary": "An announced boundary reveals the partition before the first affected outcome, and a reset there serves one of two audits. The per-time audit reads conformal reliability, the expected distance of the threshold's coverage from nominal at miscoverage 0.1. The frequency audit reads frequency calibration, whether a closed window's error rate matched it. The reset rule, the post-boundary empirical quantile, attains the minimax per-time rate for independent scores. On bounded scores a recursion reset at the boundary attains a frequency gap of order one over the count when its floor adds a bounded to",
+      "summary": "An announced boundary reveals the partition before the first affected outcome, and a reset there serves one of two audits. The per-time audit reads conformal reliability, the expected distance of the threshold's coverage from nominal at miscoverage 0.1. The frequency audit reads frequency calibration, whether a closed window's error rate matched it. The reset rule, the post-boundary empirical quantile, attains the minimax per-time rate for independent scores. On bounded scores a recursion reset at the boundary attains a frequency gap of order one over the count when its floor adds a bounded to"
+    },
+    {
+      "source": "ArXiv ML",
+      "category": "research",
+      "title": "Zero-Shot Tabular Learning via Hypergraph Reasoning with LLMs",
+      "link": "https://arxiv.org/abs/2610.23923",
+      "raw_summary": "Tabular data are prevalent across diverse domains such as healthcare and finance. Zero-shot tabular learning aims to make predictions without labeled data. However, existing LLM-based approaches rely on row-wise prompting, resulting in high inference cost and limited use of inter-row dependencies. In this work, we propose TABHGR+, an efficient relation-aware zero-shot framework for tabular data that leverages LLM-generated rules to label and group rows. Specifically, based on column and task descriptions, we use LLMs to generate rules that assign weak labels to all rows. To refine these noisy ",
+      "summary": "Tabular data are prevalent across diverse domains such as healthcare and finance. Zero-shot tabular learning aims to make predictions without labeled data. However, existing LLM-based approaches rely on row-wise prompting, resulting in high inference cost and limited use of inter-row dependencies. In this work, we propose TABHGR+, an efficient relation-aware zero-shot framework for tabular data that leverages LLM-generated rules to label and group rows. Specifically, based on column and task descriptions, we use LLMs to generate rules that assign weak labels to all rows. To refine these noisy "
+    },
+    {
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "title": "Otter.ai raises $320 million from General Catalyst\u2019s growth fund for its meeting tool",
+      "link": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+      "raw_summary": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst&#8217;s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it will use these funds for enterprise growth, go-to-market strategy, international expansion, and product innovation. [&#8230;]",
+      "summary": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst&#8217;s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it will use these funds for enterprise growth, go-to-market strategy, international expansion, and product innovation. [&#8230;]"
+    },
+    {
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+      "link": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+      "raw_summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
+      "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences."
+    },
+    {
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "link": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+      "raw_summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+      "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands."
+    },
+    {
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+      "link": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "raw_summary": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year.",
+      "summary": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year."
+    },
+    {
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "title": "Embedded AI evaluators won\u2019t be an easy solution, Hugging Face\u2019s policy chief says",
+      "link": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+      "raw_summary": "The idea of embedded evaluators \u2014 in which supposedly \"neutral\" third-party observers are placed inside AI organizations \u2014 has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
+      "summary": "The idea of embedded evaluators \u2014 in which supposedly \"neutral\" third-party observers are placed inside AI organizations \u2014 has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology."
+    },
+    {
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "title": "Microsoft says AI agents are like insider threats as \u2018frontier models can\u2019t be trusted\u2019",
+      "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "raw_summary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+      "summary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic."
+    },
+    {
+      "source": "MIT Tech Review",
+      "category": "industry",
+      "title": "The Download: the claim shaking up AI and the internet\u2019s agent problem",
+      "link": "https://www.technologyreview.com/2026/10/20/1147355/the-download-claim-shaking-up-ai-internet-agent-problem/",
+      "raw_summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. \u201cWe were looking at it wrong\u201d: The explosive claim that\u2019s upended the AI world \u201cI think I have good news about the nature of neural networks.\u201d With those simple words of&#8230;",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. \u201cWe were looking at it wrong\u201d: The explosive claim that\u2019s upended the AI world \u201cI think I have good news about the nature of neural networks.\u201d With those simple words of&#8230;"
+    },
+    {
+      "source": "MIT Tech Review",
+      "category": "industry",
+      "title": "AI adoption by industry shows what other sectors can learn",
+      "link": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
+      "raw_summary": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption\u2013tech is just the first industry in line. As generative AI and automation tools mature, the shifts currently reshaping software engineering and product management will inevitably&#8230;",
+      "summary": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption\u2013tech is just the first industry in line. As generative AI and automation tools mature, the shifts currently reshaping software engineering and product management will inevitably&#8230;"
+    },
+    {
+      "source": "MIT Tech Review",
+      "category": "industry",
+      "title": "How to study a swiftly melting climate disaster",
+      "link": "https://www.technologyreview.com/2026/10/20/1147135/how-to-study-a-swiftly-melting-climate-disaster/",
+      "raw_summary": "Andrew Haverdink, a tall grad student in a rain bib and rubber boots, wrenched a double-handed drill from the frozen soil that underlies much of Alaska\u2019s Denali National Park and then unclipped the hollow barrel from the end of the bit.&#160; He knelt in front of a blue tarp, lined the barrel up with a&#8230;",
+      "summary": "Andrew Haverdink, a tall grad student in a rain bib and rubber boots, wrenched a double-handed drill from the frozen soil that underlies much of Alaska\u2019s Denali National Park and then unclipped the hollow barrel from the end of the bit.&#160; He knelt in front of a blue tarp, lined the barrel up with a&#8230;"
+    },
+    {
+      "source": "MIT Tech Review",
+      "category": "industry",
+      "title": "A visit to Samsung\u2019s massive new semiconductor hub",
+      "link": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
+      "raw_summary": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing complex in Pyeongtaek, South Korea. Three fabs already operate around the clock, and a fourth is coming online. Construction&#8230;",
+      "summary": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing complex in Pyeongtaek, South Korea. Three fabs already operate around the clock, and a fourth is coming online. Construction&#8230;"
+    },
+    {
+      "source": "MIT Tech Review",
+      "category": "industry",
+      "title": "These startups hope \u201cblended\u201d food will cut our appetite for red meat",
+      "link": "https://www.technologyreview.com/2026/10/20/1145927/blended-meat-food-startups-building-bridge-to-ditch-red-meat/",
+      "raw_summary": "In the fall of 2025, Jeff Dodge set up a six-foot folding table in the cafeteria of Cane Bay High School in Summerville, South Carolina, to conduct a taste test. When the first rush of about 150 hungry students hit, he was waiting with slow cookers filled with steaming marinara sauce and meatballs.&#160; Kids love&#8230;",
+      "summary": "In the fall of 2025, Jeff Dodge set up a six-foot folding table in the cafeteria of Cane Bay High School in Summerville, South Carolina, to conduct a taste test. When the first rush of about 150 hungry students hit, he was waiting with slow cookers filled with steaming marinara sauce and meatballs.&#160; Kids love&#8230;"
+    },
+    {
+      "source": "MIT Tech Review",
+      "category": "industry",
+      "title": "Making the internet better for AI agents might make it worse for everyone else",
+      "link": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+      "raw_summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules&#8230;",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules&#8230;"
+    }
+  ]
+}

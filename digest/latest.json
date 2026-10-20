@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-19",
-  "generated_at": "2026-10-19T14:18:22.897675+00:00",
-  "article_count": 18,
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T12:30:38.191623+00:00",
+  "article_count": 24,
   "briefings": {
     "industry": "",
     "research": "",
@@ -9,148 +9,196 @@
   },
   "articles": [
     {
-      "source": "ArXiv ML",
+      "source": "ArXiv AI",
       "category": "research",
-      "title": "When is a large language model a good calibration agent? Physics-labeled prompting for budgeted engineering simulator calibration",
-      "link": "https://arxiv.org/abs/2610.22379",
-      "raw_summary": "Calibrating expensive engineering simulators requires tuning model parameters to match reference data, a process heavily constrained by computational costs. This study investigates whether Large Language Models (LLMs), conditioned on physical diagnostic descriptions of simulation errors, can propose informative parameter updates more efficiently than conventional derivative-free optimizers. We test this on a cylinder-wake Large-Eddy Simulation and a damped-oscillator inverse problem. Physics-labeled prompts are evaluated against four text ablations (removed, anonymized, padded, misdirected) an",
-      "summary": "Calibrating expensive engineering simulators requires tuning model parameters to match reference data, a process heavily constrained by computational costs. This study investigates whether Large Language Models (LLMs), conditioned on physical diagnostic descriptions of simulation errors, can propose informative parameter updates more efficiently than conventional derivative-free optimizers. We test this on a cylinder-wake Large-Eddy Simulation and a damped-oscillator inverse problem. Physics-labeled prompts are evaluated against four text ablations (removed, anonymized, padded, misdirected) an"
+      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
+      "link": "https://arxiv.org/abs/2610.23866",
+      "raw_summary": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss. This allows us to compare the accuracy and features of responses across model providers and versions. We account for daily variations in model accuracy, capturing both model progress and degradation, for instance, when a model is changed post-deployment or when a new model i",
+      "summary": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss. This allows us to compare the accuracy and features of responses across model providers and versions. We account for daily variations in model accuracy, capturing both model progress and degradation, for instance, when a model is changed post-deployment or when a new model i"
+    },
+    {
+      "source": "ArXiv AI",
+      "category": "research",
+      "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
+      "link": "https://arxiv.org/abs/2610.23921",
+      "raw_summary": "There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more. However, little is known about when agents are preferable to established alternatives such as local computation, Representational State Transfer (REST), the Simple Object Access Protocol (SOAP), and the Model Context Protocol (MCP), particularly when development speed, performance, and operational cost are considered. We investigate this question using a controlled mathematical task that compares ",
+      "summary": "There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more. However, little is known about when agents are preferable to established alternatives such as local computation, Representational State Transfer (REST), the Simple Object Access Protocol (SOAP), and the Model Context Protocol (MCP), particularly when development speed, performance, and operational cost are considered. We investigate this question using a controlled mathematical task that compares "
+    },
+    {
+      "source": "ArXiv AI",
+      "category": "research",
+      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
+      "link": "https://arxiv.org/abs/2610.23962",
+      "raw_summary": "We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) evidence with reference-based LLM reasoning and deterministic validation. Experiments on a test dataset show that the workflow produces more consistent, evidence-grounded and traceable diagnoses than the same LLM without structured workflow guidance.",
+      "summary": "We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) evidence with reference-based LLM reasoning and deterministic validation. Experiments on a test dataset show that the workflow produces more consistent, evidence-grounded and traceable diagnoses than the same LLM without structured workflow guidance."
+    },
+    {
+      "source": "ArXiv AI",
+      "category": "research",
+      "title": "What Social Media Teaches Us About Accumulative AI Risks",
+      "link": "https://arxiv.org/abs/2610.24006",
+      "raw_summary": "Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks. This position paper argues that there is another type of AI risk that arises and accumulates from the widespread use of AI. Drawing on lessons from social media, we argue that safety assessments must also address accumulative harms that develop through repeated use, recurring decisions, and feedback across interconnected deployments. Repeated reassurance, selective exposure, recurring decision biases, and growing personal profiles may gr",
+      "summary": "Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks. This position paper argues that there is another type of AI risk that arises and accumulates from the widespread use of AI. Drawing on lessons from social media, we argue that safety assessments must also address accumulative harms that develop through repeated use, recurring decisions, and feedback across interconnected deployments. Repeated reassurance, selective exposure, recurring decision biases, and growing personal profiles may gr"
+    },
+    {
+      "source": "ArXiv AI",
+      "category": "research",
+      "title": "Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation",
+      "link": "https://arxiv.org/abs/2610.24010",
+      "raw_summary": "Generative AI is becoming an important medium for artistic creation, yet existing interactions often assume that creators can specify intentions in advance and accurately communicate them through text prompts. Artistic intentions, however, may be vague, latent, or recognizable only after seeing concrete visual possibilities. We propose a human-AI co-creation paradigm beyond explicit intent expression. By expanding model exploration, we expose artists to diverse visual possibilities, allowing them to identify previously unarticulated preferences through observation, comparison, and selection. W",
+      "summary": "Generative AI is becoming an important medium for artistic creation, yet existing interactions often assume that creators can specify intentions in advance and accurately communicate them through text prompts. Artistic intentions, however, may be vague, latent, or recognizable only after seeing concrete visual possibilities. We propose a human-AI co-creation paradigm beyond explicit intent expression. By expanding model exploration, we expose artists to diverse visual possibilities, allowing them to identify previously unarticulated preferences through observation, comparison, and selection. W"
+    },
+    {
+      "source": "ArXiv AI",
+      "category": "research",
+      "title": "Unified Multiparadigm Fusion Intelligence for Rare Disease Diagnosis",
+      "link": "https://arxiv.org/abs/2610.24024",
+      "raw_summary": "Rare diseases (RDs) affect an estimated 300 million people globally, leaving patients to navigate a protracted diagnostic odyssey constrained by clinical scarcity and fragmented medical knowledge. Artificial intelligence (AI) has progressively advanced RD diagnostics, from symbolic methods and deep learning to large language model (LLM)-based systems. However, each paradigm carries structural limitations: symbolic methods are bounded by knowledge completeness, neural models sacrifice interpretability, and LLM-based systems are vulnerable to evaluation biases like data leakage. In this study, w",
+      "summary": "Rare diseases (RDs) affect an estimated 300 million people globally, leaving patients to navigate a protracted diagnostic odyssey constrained by clinical scarcity and fragmented medical knowledge. Artificial intelligence (AI) has progressively advanced RD diagnostics, from symbolic methods and deep learning to large language model (LLM)-based systems. However, each paradigm carries structural limitations: symbolic methods are bounded by knowledge completeness, neural models sacrifice interpretability, and LLM-based systems are vulnerable to evaluation biases like data leakage. In this study, w"
     },
     {
       "source": "ArXiv ML",
       "category": "research",
-      "title": "Trust but Verify: Designing Region-Inhomogeneous Forward Dynamics for Discrete Diffusion",
-      "link": "https://arxiv.org/abs/2610.22380",
-      "raw_summary": "Continuous diffusion treats the forward process as a design space; discrete language diffusion often uses absorbing corruption, leaving context fully trusted throughout generation. This makes trust binary: corrupted context is copied as ground truth, propagating errors into generated spans. We reopen this design space by combining absorbing and uniform-mixing kernels with region-dependent rates. Missing positions follow absorbing dynamics, while context undergoes low-rate random substitution, exposing the model to observed but uncertain tokens during training. At inference, a heuristic sampler",
-      "summary": "Continuous diffusion treats the forward process as a design space; discrete language diffusion often uses absorbing corruption, leaving context fully trusted throughout generation. This makes trust binary: corrupted context is copied as ground truth, propagating errors into generated spans. We reopen this design space by combining absorbing and uniform-mixing kernels with region-dependent rates. Missing positions follow absorbing dynamics, while context undergoes low-rate random substitution, exposing the model to observed but uncertain tokens during training. At inference, a heuristic sampler"
+      "title": "Web Agent Agentic Reinforcement Learning Decision Model Under Multi-Cost and Failure Risk",
+      "link": "https://arxiv.org/abs/2610.23857",
+      "raw_summary": "Intelligent agent interactions in real-world web environments are commonly constrained by request budgets, time delays, anti-crawling restrictions, and operational failure risks. Strategies solely optimizing task success rates often exhibit unusable phenomena such as \"high success but high cost\" or \"low risk but conservative failure.\" This paper proposes a constrained agentic reinforcement learning model for web agents, unifying page access, search requests, and external API calls into a unified long-term decision-making framework with associated costs. It simultaneously incorporates cost budg",
+      "summary": "Intelligent agent interactions in real-world web environments are commonly constrained by request budgets, time delays, anti-crawling restrictions, and operational failure risks. Strategies solely optimizing task success rates often exhibit unusable phenomena such as \"high success but high cost\" or \"low risk but conservative failure.\" This paper proposes a constrained agentic reinforcement learning model for web agents, unifying page access, search requests, and external API calls into a unified long-term decision-making framework with associated costs. It simultaneously incorporates cost budg"
     },
     {
       "source": "ArXiv ML",
       "category": "research",
-      "title": "Binding-Specific Relearning Savings for Test-Time Continual Learning",
-      "link": "https://arxiv.org/abs/2610.22381",
-      "raw_summary": "When a fact becomes harder to elicit from a language model, has the model lost it, or has it merely become less accessible? Parameter-updating test-time continual learning agents are usually evaluated by current output accuracy; we ask whether that measurement captures how prior experience shapes later updates. We test whether learning a specific factual binding produces a later relearning advantage beyond familiarity with its entity, answer vocabulary, format, or query slot. In Qwen2.5-1.5B, we compare three matched, counterbalanced histories: LEARNED receives the correct binding, CONTROL rec",
-      "summary": "When a fact becomes harder to elicit from a language model, has the model lost it, or has it merely become less accessible? Parameter-updating test-time continual learning agents are usually evaluated by current output accuracy; we ask whether that measurement captures how prior experience shapes later updates. We test whether learning a specific factual binding produces a later relearning advantage beyond familiarity with its entity, answer vocabulary, format, or query slot. In Qwen2.5-1.5B, we compare three matched, counterbalanced histories: LEARNED receives the correct binding, CONTROL rec"
+      "title": "PolyGraph: Plan-Buffered CUDA Graphs for Adaptive Speculative Decoding",
+      "link": "https://arxiv.org/abs/2610.23861",
+      "raw_summary": "Adaptive speculative decoding changes the active batch size B and draft length d from one decode step to the next, whereas a CUDA Graph replays a fixed launch configuration. The resulting verification width M = B d forces serving systems to pre-capture many shapes, capture new ones on the serving path, or pad every step to the largest draft. We present PolyGraph, a plan-buffer mechanism for custom Triton kernels that avoids this choice. PolyGraph captures one maximum-grid graph and writes the active shape to GPU memory before each replay. Kernels skip tiles beyond that shape, while graph topol",
+      "summary": "Adaptive speculative decoding changes the active batch size B and draft length d from one decode step to the next, whereas a CUDA Graph replays a fixed launch configuration. The resulting verification width M = B d forces serving systems to pre-capture many shapes, capture new ones on the serving path, or pad every step to the largest draft. We present PolyGraph, a plan-buffer mechanism for custom Triton kernels that avoids this choice. PolyGraph captures one maximum-grid graph and writes the active shape to GPU memory before each replay. Kernels skip tiles beyond that shape, while graph topol"
     },
     {
       "source": "ArXiv ML",
       "category": "research",
-      "title": "CGDT-CESN: Correlation-Guided and Dynamics-Trained Clustered Echo State Network for Multivariate Time-Series Prediction",
-      "link": "https://arxiv.org/abs/2610.22430",
-      "raw_summary": "Accurate prediction of multivariate time series requires models that simultaneously capture variable-specific dynamics and cross-variable interactions. In this work, a Correlation-Guided and Dynamics-Trained Clustered Echo State Network (CGDT-CESN) is proposed, which comprises a modular reservoir architecture with each cluster distinctly specializing in one of the variables in the multivariate time series. An innovative reservoir design is proposed in which inter-cluster connections are enabled by empirically observed correlations among variables, providing a data-driven coupling mechanism. Ap",
-      "summary": "Accurate prediction of multivariate time series requires models that simultaneously capture variable-specific dynamics and cross-variable interactions. In this work, a Correlation-Guided and Dynamics-Trained Clustered Echo State Network (CGDT-CESN) is proposed, which comprises a modular reservoir architecture with each cluster distinctly specializing in one of the variables in the multivariate time series. An innovative reservoir design is proposed in which inter-cluster connections are enabled by empirically observed correlations among variables, providing a data-driven coupling mechanism. Ap"
+      "title": "Forecasting Patient Trajectories from the Electronic Health Records with Action-Conditioned World Models",
+      "link": "https://arxiv.org/abs/2610.23862",
+      "raw_summary": "We introduce a predictive world model for electronic health records (EHR) that represents patient histories as action conditioned latent trajectories. Rather than modeling clinical events solely through autoregressive token prediction, our framework explicitly separates patient states from observed clinical actions and learns their evolution through a state and action conditioned transition operator. At its core is a state dependent linearization predictor that propagates local changes in latent patient state, enabling time resolved prediction, multi step rollout, and action conditioned simula",
+      "summary": "We introduce a predictive world model for electronic health records (EHR) that represents patient histories as action conditioned latent trajectories. Rather than modeling clinical events solely through autoregressive token prediction, our framework explicitly separates patient states from observed clinical actions and learns their evolution through a state and action conditioned transition operator. At its core is a state dependent linearization predictor that propagates local changes in latent patient state, enabling time resolved prediction, multi step rollout, and action conditioned simula"
     },
     {
       "source": "ArXiv ML",
       "category": "research",
-      "title": "BOLT: Multi-Bottleneck Bound-Guided Learning for Flexible Job-Shop Scheduling with Time Lags and Resource-Coupled Transport",
-      "link": "https://arxiv.org/abs/2610.22433",
-      "raw_summary": "Flexible job-shop scheduling becomes resource-coupled when a scarce vehicle fleet moves jobs between stations, because the schedule sets the transport waits. BOLT (bound-oriented learning for transport-coupled scheduling) builds a lower bound from chain, machine-capacity, and fleet-capacity relaxations. The bound equals the makespan at termination, so its per-step changes form a reward that sums to a constant minus the makespan. Because it never exceeds the attainable makespan, each candidate's bound increase is a proven rise of the makespan floor, which the policy reads as a price. The root b",
-      "summary": "Flexible job-shop scheduling becomes resource-coupled when a scarce vehicle fleet moves jobs between stations, because the schedule sets the transport waits. BOLT (bound-oriented learning for transport-coupled scheduling) builds a lower bound from chain, machine-capacity, and fleet-capacity relaxations. The bound equals the makespan at termination, so its per-step changes form a reward that sums to a constant minus the makespan. Because it never exceeds the attainable makespan, each candidate's bound increase is a proven rise of the makespan floor, which the policy reads as a price. The root b"
+      "title": "SAGE-CP: When Marginal Coverage Hides Route-Conditional Failures in Adaptive VLM Ensembles",
+      "link": "https://arxiv.org/abs/2610.23864",
+      "raw_summary": "Adaptive VLM ensembles save computation by stopping early on easy images and escalating harder ones. Although a single conformal threshold can make the final predictor marginally valid, it can still fail severely along individual computational routes. We characterize this failure precisely: if a route has prevalence pi, marginal 1-alpha coverage allows its conditional coverage to fall to max{0, 1-alpha/pi}. To address this mismatch, we learn the router on development data, freeze all routing choices, and calibrate the returned score separately for early exits and escalated inputs. We call this",
+      "summary": "Adaptive VLM ensembles save computation by stopping early on easy images and escalating harder ones. Although a single conformal threshold can make the final predictor marginally valid, it can still fail severely along individual computational routes. We characterize this failure precisely: if a route has prevalence pi, marginal 1-alpha coverage allows its conditional coverage to fall to max{0, 1-alpha/pi}. To address this mismatch, we learn the router on development data, freeze all routing choices, and calibrate the returned score separately for early exits and escalated inputs. We call this"
     },
     {
       "source": "ArXiv ML",
       "category": "research",
-      "title": "TRACE: Transformer Residual Activation Codebook Encoding for Communication-efficient Distributed Edge Inference",
-      "link": "https://arxiv.org/abs/2610.22435",
-      "raw_summary": "Distributed Transformer inference across co-located edge devices is fundamentally communication-bound, as exchanging activations between sequence-parallel partitions dominates inference latency under commodity edge bandwidths. Existing compression schemes reduce this cost but retain a structural bottleneck: the received data must still undergo key/value projection before attention can proceed, serializing computation behind communication. This paper presents Transformer Residual Activation Codebook Encoding (Trace), a framework that addresses these limitations. Trace places a Vector Quantizer ",
-      "summary": "Distributed Transformer inference across co-located edge devices is fundamentally communication-bound, as exchanging activations between sequence-parallel partitions dominates inference latency under commodity edge bandwidths. Existing compression schemes reduce this cost but retain a structural bottleneck: the received data must still undergo key/value projection before attention can proceed, serializing computation behind communication. This paper presents Transformer Residual Activation Codebook Encoding (Trace), a framework that addresses these limitations. Trace places a Vector Quantizer "
+      "title": "Announced Breaks Separate Conformal Reliability from Frequency Calibration",
+      "link": "https://arxiv.org/abs/2610.23917",
+      "raw_summary": "An announced boundary reveals the partition before the first affected outcome, and a reset there serves one of two audits. The per-time audit reads conformal reliability, the expected distance of the threshold's coverage from nominal at miscoverage 0.1. The frequency audit reads frequency calibration, whether a closed window's error rate matched it. The reset rule, the post-boundary empirical quantile, attains the minimax per-time rate for independent scores. On bounded scores a recursion reset at the boundary attains a frequency gap of order one over the count when its floor adds a bounded to",
+      "summary": "An announced boundary reveals the partition before the first affected outcome, and a reset there serves one of two audits. The per-time audit reads conformal reliability, the expected distance of the threshold's coverage from nominal at miscoverage 0.1. The frequency audit reads frequency calibration, whether a closed window's error rate matched it. The reset rule, the post-boundary empirical quantile, attains the minimax per-time rate for independent scores. On bounded scores a recursion reset at the boundary attains a frequency gap of order one over the count when its floor adds a bounded to"
+    },
+    {
+      "source": "ArXiv ML",
+      "category": "research",
+      "title": "Zero-Shot Tabular Learning via Hypergraph Reasoning with LLMs",
+      "link": "https://arxiv.org/abs/2610.23923",
+      "raw_summary": "Tabular data are prevalent across diverse domains such as healthcare and finance. Zero-shot tabular learning aims to make predictions without labeled data. However, existing LLM-based approaches rely on row-wise prompting, resulting in high inference cost and limited use of inter-row dependencies. In this work, we propose TABHGR+, an efficient relation-aware zero-shot framework for tabular data that leverages LLM-generated rules to label and group rows. Specifically, based on column and task descriptions, we use LLMs to generate rules that assign weak labels to all rows. To refine these noisy ",
+      "summary": "Tabular data are prevalent across diverse domains such as healthcare and finance. Zero-shot tabular learning aims to make predictions without labeled data. However, existing LLM-based approaches rely on row-wise prompting, resulting in high inference cost and limited use of inter-row dependencies. In this work, we propose TABHGR+, an efficient relation-aware zero-shot framework for tabular data that leverages LLM-generated rules to label and group rows. Specifically, based on column and task descriptions, we use LLMs to generate rules that assign weak labels to all rows. To refine these noisy "
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Anthropic says it\u2019s committing 5% of its shares to a \u2018public benefit fund\u2019",
-      "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-      "raw_summary": "Anthropic said that it will commit 5% of its shares to the fund.",
-      "summary": "Anthropic said that it will commit 5% of its shares to the fund."
+      "title": "Otter.ai raises $320 million from General Catalyst\u2019s growth fund for its meeting tool",
+      "link": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+      "raw_summary": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst&#8217;s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it will use these funds for enterprise growth, go-to-market strategy, international expansion, and product innovation. [&#8230;]",
+      "summary": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst&#8217;s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it will use these funds for enterprise growth, go-to-market strategy, international expansion, and product innovation. [&#8230;]"
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Disney agrees to hire the majority of Character.AI\u2019s workforce",
-      "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
-      "raw_summary": "The filing also says that the \u201cvast majority\u201d of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
-      "summary": "The filing also says that the \u201cvast majority\u201d of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer."
+      "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+      "link": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+      "raw_summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
+      "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Meta removes language that raised scraping and AI training concerns",
-      "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-      "raw_summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
-      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web."
+      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "link": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+      "raw_summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+      "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-      "raw_summary": "The composition of Anthropic\u2019s workforce and the type of work getting done have changed significantly in the past year.",
-      "summary": "The composition of Anthropic\u2019s workforce and the type of work getting done have changed significantly in the past year."
+      "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+      "link": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "raw_summary": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year.",
+      "summary": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
-      "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "raw_summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
-      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform."
+      "title": "Embedded AI evaluators won\u2019t be an easy solution, Hugging Face\u2019s policy chief says",
+      "link": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+      "raw_summary": "The idea of embedded evaluators \u2014 in which supposedly \"neutral\" third-party observers are placed inside AI organizations \u2014 has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
+      "summary": "The idea of embedded evaluators \u2014 in which supposedly \"neutral\" third-party observers are placed inside AI organizations \u2014 has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "raw_summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
-      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles."
+      "title": "Microsoft says AI agents are like insider threats as \u2018frontier models can\u2019t be trusted\u2019",
+      "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "raw_summary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+      "summary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic."
     },
     {
       "source": "MIT Tech Review",
       "category": "industry",
-      "title": "The Download: preserving the Arctic permafrost, and playful AI agents",
-      "link": "https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/",
-      "raw_summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside the quest to combat Arctic fires and save the planet\u2019s frozen carbon \u2014James Temple In July 2021, a wildfire burned through a forest on the University of Alaska, Fairbanks campus,&#8230;",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside the quest to combat Arctic fires and save the planet\u2019s frozen carbon \u2014James Temple In July 2021, a wildfire burned through a forest on the University of Alaska, Fairbanks campus,&#8230;"
+      "title": "The Download: the claim shaking up AI and the internet\u2019s agent problem",
+      "link": "https://www.technologyreview.com/2026/10/20/1147355/the-download-claim-shaking-up-ai-internet-agent-problem/",
+      "raw_summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. \u201cWe were looking at it wrong\u201d: The explosive claim that\u2019s upended the AI world \u201cI think I have good news about the nature of neural networks.\u201d With those simple words of&#8230;",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. \u201cWe were looking at it wrong\u201d: The explosive claim that\u2019s upended the AI world \u201cI think I have good news about the nature of neural networks.\u201d With those simple words of&#8230;"
     },
     {
       "source": "MIT Tech Review",
       "category": "industry",
-      "title": "Inside the quest to combat Arctic fires and save the planet\u2019s frozen carbon",
-      "link": "https://www.technologyreview.com/2026/10/19/1146832/inside-the-quest-to-combat-arctic-fires-and-save-the-planets-frozen-carbon/",
-      "raw_summary": "In the middle of an especially warm July in 2021, a wildfire ignited in a thick forest of black spruce and peeling paper birch trees on the northern campus of the University of Alaska, Fairbanks.&#160; The blaze, possibly sparked by lightning, burned across the dry carpet of feather mosses and lichen before climbing into the&#8230;",
-      "summary": "In the middle of an especially warm July in 2021, a wildfire ignited in a thick forest of black spruce and peeling paper birch trees on the northern campus of the University of Alaska, Fairbanks.&#160; The blaze, possibly sparked by lightning, burned across the dry carpet of feather mosses and lichen before climbing into the&#8230;"
+      "title": "AI adoption by industry shows what other sectors can learn",
+      "link": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
+      "raw_summary": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption\u2013tech is just the first industry in line. As generative AI and automation tools mature, the shifts currently reshaping software engineering and product management will inevitably&#8230;",
+      "summary": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption\u2013tech is just the first industry in line. As generative AI and automation tools mature, the shifts currently reshaping software engineering and product management will inevitably&#8230;"
     },
     {
       "source": "MIT Tech Review",
       "category": "industry",
-      "title": "AI researchers stranded Claude on a virtual desert island. It started to \u201cplay.\u201d",
-      "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-      "raw_summary": "What do AI agents do if you don\u2019t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents\u2014copies of Claude Opus 4.7 nicknamed Eko\u2014were able to&#8230;",
-      "summary": "What do AI agents do if you don\u2019t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents\u2014copies of Claude Opus 4.7 nicknamed Eko\u2014were able to&#8230;"
+      "title": "How to study a swiftly melting climate disaster",
+      "link": "https://www.technologyreview.com/2026/10/20/1147135/how-to-study-a-swiftly-melting-climate-disaster/",
+      "raw_summary": "Andrew Haverdink, a tall grad student in a rain bib and rubber boots, wrenched a double-handed drill from the frozen soil that underlies much of Alaska\u2019s Denali National Park and then unclipped the hollow barrel from the end of the bit.&#160; He knelt in front of a blue tarp, lined the barrel up with a&#8230;",
+      "summary": "Andrew Haverdink, a tall grad student in a rain bib and rubber boots, wrenched a double-handed drill from the frozen soil that underlies much of Alaska\u2019s Denali National Park and then unclipped the hollow barrel from the end of the bit.&#160; He knelt in front of a blue tarp, lined the barrel up with a&#8230;"
     },
     {
       "source": "MIT Tech Review",
       "category": "industry",
-      "title": "How far can we push computing?",
-      "link": "https://www.technologyreview.com/2026/10/19/1145904/tr-explains-how-far-can-we-push-computing/",
-      "raw_summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what\u2019s coming next. You can read more from the series here. On the evening of December 29, 1959, at an American Physical Society meeting at Caltech, the physicist Richard Feynman gave a lecture called \u201cThere\u2019s&#8230;",
-      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what\u2019s coming next. You can read more from the series here. On the evening of December 29, 1959, at an American Physical Society meeting at Caltech, the physicist Richard Feynman gave a lecture called \u201cThere\u2019s&#8230;"
+      "title": "A visit to Samsung\u2019s massive new semiconductor hub",
+      "link": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
+      "raw_summary": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing complex in Pyeongtaek, South Korea. Three fabs already operate around the clock, and a fourth is coming online. Construction&#8230;",
+      "summary": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing complex in Pyeongtaek, South Korea. Three fabs already operate around the clock, and a fourth is coming online. Construction&#8230;"
     },
     {
       "source": "MIT Tech Review",
       "category": "industry",
-      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "raw_summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn\u2019t yet an example of AI-generated life, but that could be next. Watch&#8230;",
-      "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn\u2019t yet an example of AI-generated life, but that could be next. Watch&#8230;"
+      "title": "These startups hope \u201cblended\u201d food will cut our appetite for red meat",
+      "link": "https://www.technologyreview.com/2026/10/20/1145927/blended-meat-food-startups-building-bridge-to-ditch-red-meat/",
+      "raw_summary": "In the fall of 2025, Jeff Dodge set up a six-foot folding table in the cafeteria of Cane Bay High School in Summerville, South Carolina, to conduct a taste test. When the first rush of about 150 hungry students hit, he was waiting with slow cookers filled with steaming marinara sauce and meatballs.&#160; Kids love&#8230;",
+      "summary": "In the fall of 2025, Jeff Dodge set up a six-foot folding table in the cafeteria of Cane Bay High School in Summerville, South Carolina, to conduct a taste test. When the first rush of about 150 hungry students hit, he was waiting with slow cookers filled with steaming marinara sauce and meatballs.&#160; Kids love&#8230;"
     },
     {
       "source": "MIT Tech Review",
       "category": "industry",
-      "title": "The Download: failed social media bans, and extending pets\u2019 lives",
-      "link": "https://www.technologyreview.com/2026/10/16/1146864/the-download-failed-social-media-bans-and-extending-pets-lives/",
-      "raw_summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Kids are outsmarting social media bans. That\u2019s not a problem we need to solve.\u00a0\u00a0 \u2014Michal Luria, Aliya Bhatia, and Danah Boyd Social media bans are stacking up. In July, France joined&#8230;",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Kids are outsmarting social media bans. That\u2019s not a problem we need to solve.\u00a0\u00a0 \u2014Michal Luria, Aliya Bhatia, and Danah Boyd Social media bans are stacking up. In July, France joined&#8230;"
+      "title": "Making the internet better for AI agents might make it worse for everyone else",
+      "link": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+      "raw_summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules&#8230;",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules&#8230;"
     }
   ]
 }
