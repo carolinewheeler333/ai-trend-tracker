@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-24",
-  "generated_at": "2026-10-24T11:49:41.531420+00:00",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T12:18:59.311341+00:00",
   "article_count": 12,
   "briefings": {
     "industry": "",
@@ -8,6 +8,38 @@
     "overall": ""
   },
   "articles": [
+    {
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "title": "The AI graveyard: a running list of projects and startups that didn\u2019t make it",
+      "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "raw_summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations."
+    },
+    {
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "title": "Block\u2019s new voice model sounds eerily human",
+      "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "raw_summary": "Block said that the voice model can run locally on a MacBook M4 Max",
+      "summary": "Block said that the voice model can run locally on a MacBook M4 Max"
+    },
+    {
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "title": "Forced to pick, Grok\u2019s AI model chooses Republicans. OpenAI\u2019s picks Democrats.",
+      "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "raw_summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races."
+    },
+    {
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "link": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "raw_summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work."
+    },
     {
       "source": "TechCrunch AI",
       "category": "industry",
@@ -23,38 +55,6 @@
       "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
       "raw_summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
       "summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command."
-    },
-    {
-      "source": "TechCrunch AI",
-      "category": "industry",
-      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
-      "link": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
-      "raw_summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
-      "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs."
-    },
-    {
-      "source": "TechCrunch AI",
-      "category": "industry",
-      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
-      "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-      "raw_summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
-      "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027."
-    },
-    {
-      "source": "TechCrunch AI",
-      "category": "industry",
-      "title": "Left alone with nothing to do, AI agents started playing",
-      "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-      "raw_summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
-      "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs."
-    },
-    {
-      "source": "TechCrunch AI",
-      "category": "industry",
-      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-      "raw_summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
-      "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever."
     },
     {
       "source": "MIT Tech Review",
