@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-28",
-  "generated_at": "2026-10-28T13:48:03.127511+00:00",
-  "article_count": 24,
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T13:55:09.905499+00:00",
+  "article_count": 18,
   "briefings": {
     "industry": "",
     "research": "",
@@ -57,100 +57,84 @@
       "summary": "Prompt optimization should improve the image a user receives without changing the scene the user requested. Yet stylistic rewriting can weaken object attributes and relations even when global text--image similarity remains high. We propose StruPO, a structure-aware prompt editor that uses a calibrated scene graph as a shared representation for policy conditioning and image-grounded supervision. The graph exposes what should be preserved, while deletion, reordering, and insertion provide a token-aligned way to modify the prompt. This turns structural feedback from an external critique into a tr"
     },
     {
-      "source": "ArXiv ML",
-      "category": "research",
-      "title": "KORA: Deterministic-First Execution Control for AI Workloads",
-      "link": "https://arxiv.org/abs/2610.35869",
-      "raw_summary": "AI applications often invoke a model before they determine whether inference is necessary. That default is useful for ambiguous generative tasks, but it is poorly matched to work that is structured, deterministic, policy-bound, lookup-oriented, or directly verifiable. KORA introduces deterministic-first execution control: a pre-inference control layer that represents requests as task paths, attempts deterministic or structured routes first, validates route outcomes, records telemetry, and escalates to a model-candidate path only when deterministic handling is insufficient. This paper presents ",
-      "summary": "AI applications often invoke a model before they determine whether inference is necessary. That default is useful for ambiguous generative tasks, but it is poorly matched to work that is structured, deterministic, policy-bound, lookup-oriented, or directly verifiable. KORA introduces deterministic-first execution control: a pre-inference control layer that represents requests as task paths, attempts deterministic or structured routes first, validates route outcomes, records telemetry, and escalates to a model-candidate path only when deterministic handling is insufficient. This paper presents "
-    },
-    {
-      "source": "ArXiv ML",
-      "category": "research",
-      "title": "Calibrated for Which Policy? Conformal Uncertainty for Fixed World Models Under Intervention",
-      "link": "https://arxiv.org/abs/2610.35877",
-      "raw_summary": "Changing a deployment policy can invalidate a world model's uncertainty while leaving the physical transition mechanism and predictor unchanged. For one-step prediction, if source and target laws share the conditional mechanism $P(Y|X)=Q(Y|X)$, then the intervention is identified by the pre-outcome change of measure $w(X)=dQ_X/dP_X$. For policy-controlled dynamics this ratio factors into state-occupancy and action-propensity terms. Weighted conformal calibration transports marginal coverage to the target law; with an estimated ratio $\\hat w$, $P_Q\\{Y \\in C_{\\hat w}(X)\\} \\ge 1-\\alpha-TV(Q,\\hat ",
-      "summary": "Changing a deployment policy can invalidate a world model's uncertainty while leaving the physical transition mechanism and predictor unchanged. For one-step prediction, if source and target laws share the conditional mechanism $P(Y|X)=Q(Y|X)$, then the intervention is identified by the pre-outcome change of measure $w(X)=dQ_X/dP_X$. For policy-controlled dynamics this ratio factors into state-occupancy and action-propensity terms. Weighted conformal calibration transports marginal coverage to the target law; with an estimated ratio $\\hat w$, $P_Q\\{Y \\in C_{\\hat w}(X)\\} \\ge 1-\\alpha-TV(Q,\\hat "
-    },
-    {
-      "source": "ArXiv ML",
-      "category": "research",
-      "title": "Curriculum-Driven Deep Reinforcement Learning for Autonomous Far-Range Rocket Landing",
-      "link": "https://arxiv.org/abs/2610.35954",
-      "raw_summary": "Autonomous vertical landing of reusable launch vehicles is a critical yet formidable challenge in aerospace engineering, primarily due to highly nonlinear dynamics, stringent precision require- ments, and inherent environmental uncertainties. While reinforcement learning (RL) has emerged as a promising alternative to traditional model-based control, existing approaches frequently rely on flat training paradigms and highly simplified initial conditions, drastically limiting their real-world applicability. This paper proposes a comprehensive curriculum-driven deep reinforcement learning framewor",
-      "summary": "Autonomous vertical landing of reusable launch vehicles is a critical yet formidable challenge in aerospace engineering, primarily due to highly nonlinear dynamics, stringent precision require- ments, and inherent environmental uncertainties. While reinforcement learning (RL) has emerged as a promising alternative to traditional model-based control, existing approaches frequently rely on flat training paradigms and highly simplified initial conditions, drastically limiting their real-world applicability. This paper proposes a comprehensive curriculum-driven deep reinforcement learning framewor"
-    },
-    {
-      "source": "ArXiv ML",
-      "category": "research",
-      "title": "ResCom: Activation Residual Compensation for Large Language Model Quantization",
-      "link": "https://arxiv.org/abs/2610.35955",
-      "raw_summary": "Low-bit weight--activation quantization reduces the memory and computation needed to deploy large language models, but activation rounding can still degrade accuracy after calibration. Reconstruction from rounded inputs cannot distinguish activations within the same quantization bin. We propose ResCom, a low-rank correction that uses the activation rounding residual to compensate for the resulting layer-output error. An output-aware calibration procedure selects residual directions by their contribution to output reconstruction and computes the correction in closed form, without gradient train",
-      "summary": "Low-bit weight--activation quantization reduces the memory and computation needed to deploy large language models, but activation rounding can still degrade accuracy after calibration. Reconstruction from rounded inputs cannot distinguish activations within the same quantization bin. We propose ResCom, a low-rank correction that uses the activation rounding residual to compensate for the resulting layer-output error. An output-aware calibration procedure selects residual directions by their contribution to output reconstruction and computes the correction in closed form, without gradient train"
-    },
-    {
-      "source": "ArXiv ML",
-      "category": "research",
-      "title": "Distributed LLM Inference via Communication-Efficient Speculative Decoding",
-      "link": "https://arxiv.org/abs/2610.35957",
-      "raw_summary": "Distributed speculative decoding has emerged as a promising approach for device--server collaborative large language model (LLM) inference, but its decoding speedup is often limited by the vocabulary-scale communication overhead. In existing distributed speculative decoding methods, exact rejection sampling requires transmitting full token distributions over the LLM vocabulary between the device and the server, which becomes costly in bandwidth-constrained environments. To address this issue, we propose DISCO, a communication-efficient framework for distributed speculative decoding, that elimi",
-      "summary": "Distributed speculative decoding has emerged as a promising approach for device--server collaborative large language model (LLM) inference, but its decoding speedup is often limited by the vocabulary-scale communication overhead. In existing distributed speculative decoding methods, exact rejection sampling requires transmitting full token distributions over the LLM vocabulary between the device and the server, which becomes costly in bandwidth-constrained environments. To address this issue, we propose DISCO, a communication-efficient framework for distributed speculative decoding, that elimi"
-    },
-    {
-      "source": "ArXiv ML",
-      "category": "research",
-      "title": "Exponential Wake-Up Overshoot in Explicit Gaussian Point-Process Filters",
-      "link": "https://arxiv.org/abs/2610.35958",
-      "raw_summary": "When events resume after a long silence, explicit Gaussian point-process filters amplify the first update exponentially in the silence duration. We give the exact distribution of this update and a computable index that predicts when it overshoots. For the explicit (single-scoring-step) filter and its implicit posterior-mode counterpart, we derive second-order silence expansions of the state variance with opposite-sign logarithmic corrections. The crossing index determines when the post-wake prediction exceeds the resumed rate, separating the bin width at which the amplification exponent reache",
-      "summary": "When events resume after a long silence, explicit Gaussian point-process filters amplify the first update exponentially in the silence duration. We give the exact distribution of this update and a computable index that predicts when it overshoots. For the explicit (single-scoring-step) filter and its implicit posterior-mode counterpart, we derive second-order silence expansions of the state variance with opposite-sign logarithmic corrections. The crossing index determines when the post-wake prediction exceeds the resumed rate, separating the bin width at which the amplification exponent reache"
+      "source": "TechCrunch AI",
+      "category": "industry",
+      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "link": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "raw_summary": "Deepgram said that it is committed to keep Pipecat open source.",
+      "summary": "Deepgram said that it is committed to keep Pipecat open source."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
-      "link": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/",
-      "raw_summary": "In just 7 days, TechCrunch Founder Summit takes over Boston\u2019s SoWa Power Station on November 4. Your chance to save up to $100 on tickets is running out, and the opportunity to learn and connect directly with experienced founders, investors, and startup leaders is almost here.",
-      "summary": "In just 7 days, TechCrunch Founder Summit takes over Boston\u2019s SoWa Power Station on November 4. Your chance to save up to $100 on tickets is running out, and the opportunity to learn and connect directly with experienced founders, investors, and startup leaders is almost here."
+      "title": "Amazon updates Alexa to help you manage shopping lists, subscriptions, and update delivery instructions",
+      "link": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/",
+      "raw_summary": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions with the AI bot.",
+      "summary": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions with the AI bot."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "VCs will make billions on Anthropic\u2019s IPO, but Amazon is set to make much (much) more",
-      "link": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-      "raw_summary": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
-      "summary": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic."
+      "title": "Microsoft just shared Azure\u2019s actual revenue in dollars: $33.2 billion",
+      "link": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+      "raw_summary": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS.",
+      "summary": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-      "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-      "raw_summary": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
-      "summary": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February."
+      "title": "Google expands AI Search ads globally as core ad growth slows",
+      "link": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "raw_summary": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion.",
+      "summary": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "The data center boom has an upside: innovation for the US grid",
-      "link": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
-      "raw_summary": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
-      "summary": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say."
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "link": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "raw_summary": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
+      "summary": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Bank of America kindly asks that you don\u2019t share your banking password with your AI assistant",
-      "link": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
-      "raw_summary": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
-      "summary": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access."
+      "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+      "link": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
+      "raw_summary": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter.",
+      "summary": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter."
     },
     {
-      "source": "TechCrunch AI",
+      "source": "MIT Tech Review",
       "category": "industry",
-      "title": "Who\u2019s really in charge at Anthropic after the IPO?",
-      "link": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
-      "raw_summary": "Here's a clear explanation of Anthropic's incredibly complex governance structure.",
-      "summary": "Here's a clear explanation of Anthropic's incredibly complex governance structure."
+      "title": "The Download: AI agent tracking and climate feedback loops",
+      "link": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/",
+      "raw_summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Opinion: We urgently need to monitor AI agents\u2019 actions in real time \u2014Madhulika Srikumar and Claire Leibowicz from the Partnership on AI, a nonprofit advancing best practices in AI governance. AI&#8230;",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Opinion: We urgently need to monitor AI agents\u2019 actions in real time \u2014Madhulika Srikumar and Claire Leibowicz from the Partnership on AI, a nonprofit advancing best practices in AI governance. AI&#8230;"
+    },
+    {
+      "source": "MIT Tech Review",
+      "category": "industry",
+      "title": "We urgently need to monitor AI agents\u2019 actions in real time",
+      "link": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+      "raw_summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they\u2019d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It\u2019s a problem&#8230;",
+      "summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they\u2019d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It\u2019s a problem&#8230;"
+    },
+    {
+      "source": "MIT Tech Review",
+      "category": "industry",
+      "title": "Our climate models have a big, dangerous blind spot",
+      "link": "https://www.technologyreview.com/2026/10/29/1147735/climate-models-blind-spot/",
+      "raw_summary": "Climate change itself is increasingly fueling climate change. Rising concentrations of greenhouse gases are driving up global temperatures, setting off dangerous feedback loops that we have not fully accounted for in our climate models\u2014or our emissions-reduction goals. Scientists have long warned that warming would propel further warming in various ways, but a growing number of&#8230;",
+      "summary": "Climate change itself is increasingly fueling climate change. Rising concentrations of greenhouse gases are driving up global temperatures, setting off dangerous feedback loops that we have not fully accounted for in our climate models\u2014or our emissions-reduction goals. Scientists have long warned that warming would propel further warming in various ways, but a growing number of&#8230;"
+    },
+    {
+      "source": "MIT Tech Review",
+      "category": "industry",
+      "title": "Creating AI value with enterprise context",
+      "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "raw_summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously\u2014for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a&#8230;",
+      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously\u2014for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a&#8230;"
     },
     {
       "source": "MIT Tech Review",
@@ -167,38 +151,6 @@
       "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
       "raw_summary": "",
       "summary": ""
-    },
-    {
-      "source": "MIT Tech Review",
-      "category": "industry",
-      "title": "The Download: Anthropic\u2019s IPO, smarter power grids, and exercise pills",
-      "link": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
-      "raw_summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Will the real Anthropic please stand up? After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out&#8230;",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Will the real Anthropic please stand up? After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out&#8230;"
-    },
-    {
-      "source": "MIT Tech Review",
-      "category": "industry",
-      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
-      "link": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
-      "raw_summary": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, what happened during the previous shift, and when an apparently minor&#8230;",
-      "summary": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, what happened during the previous shift, and when an apparently minor&#8230;"
-    },
-    {
-      "source": "MIT Tech Review",
-      "category": "industry",
-      "title": "How solid-state transformers could help power the AI boom",
-      "link": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
-      "raw_summary": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they\u2019re complicated and in short supply. And given that their basic design hasn\u2019t changed much for about a century, they could use an upgrade.&#160; As the world races to meet rising electricity demand from&#8230;",
-      "summary": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they\u2019re complicated and in short supply. And given that their basic design hasn\u2019t changed much for about a century, they could use an upgrade.&#160; As the world races to meet rising electricity demand from&#8230;"
-    },
-    {
-      "source": "MIT Tech Review",
-      "category": "industry",
-      "title": "Will the real Anthropic please stand up",
-      "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
-      "raw_summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company\u2019s unique view of the technology it&#8230;",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company\u2019s unique view of the technology it&#8230;"
     }
   ]
 }
