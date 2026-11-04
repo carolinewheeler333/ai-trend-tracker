@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-03",
-  "generated_at": "2026-11-03T14:49:43.497822+00:00",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T15:02:54.047698+00:00",
   "article_count": 24,
   "briefings": {
     "industry": "",
@@ -11,146 +11,162 @@
     {
       "source": "ArXiv AI",
       "category": "research",
-      "title": "A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability",
-      "link": "https://arxiv.org/abs/2611.00159",
-      "raw_summary": "Fuzzy clustering provides a robust framework for handling ambiguous and overlapping data boundaries, yet its traditional formulation generates entirely dense membership assignments that limit noise resilience and prevent estimating the true number of clusters, when it is unknown. To address these limitations, we introduce in this paper the Generalized Sparse Fuzzy Clustering (GSFC) framework, which incorporates a continuous sparsity penalty into the fuzzy objective function. Because closed-form solutions are precluded by the simultaneous presence of fuzzifier and sparsity exponents, we propose",
-      "summary": "Fuzzy clustering provides a robust framework for handling ambiguous and overlapping data boundaries, yet its traditional formulation generates entirely dense membership assignments that limit noise resilience and prevent estimating the true number of clusters, when it is unknown. To address these limitations, we introduce in this paper the Generalized Sparse Fuzzy Clustering (GSFC) framework, which incorporates a continuous sparsity penalty into the fuzzy objective function. Because closed-form solutions are precluded by the simultaneous presence of fuzzifier and sparsity exponents, we propose"
+      "title": "Alignment Faking Depends on the Value, Not Just the Model",
+      "link": "https://arxiv.org/abs/2611.03650",
+      "raw_summary": "Language models can follow a directive when they believe they are monitored and abandon it when they believe they are not, a pattern termed Alignment Faking. Prior work establishes this for harmful-content objectives and a handful of moral-foundations values, leaving open how it distributes across a wider value space. We argue it is value-dependent: whether compliance survives a change in perceived oversight is a property of the model--value pairing, not of the model alone. Our framework profiles Alignment Faking per value, scoring each model-value pair under three conditions: bare (no system ",
+      "summary": "Language models can follow a directive when they believe they are monitored and abandon it when they believe they are not, a pattern termed Alignment Faking. Prior work establishes this for harmful-content objectives and a handful of moral-foundations values, leaving open how it distributes across a wider value space. We argue it is value-dependent: whether compliance survives a change in perceived oversight is a property of the model--value pairing, not of the model alone. Our framework profiles Alignment Faking per value, scoring each model-value pair under three conditions: bare (no system "
     },
     {
       "source": "ArXiv AI",
       "category": "research",
-      "title": "Learning to bid and bundle: a posterior-sampling agent for online retail",
-      "link": "https://arxiv.org/abs/2611.00165",
-      "raw_summary": "An online retailer launching a perishable product bids for sponsored-search clicks, discounts a bundle with an always-stocked staple and displays its remaining stock, which raises willingness to pay. It knows neither how clicks respond to its bid nor how strong and dispersed its market is, and learns both over repeated seasons from data its own decisions censor: a zero bid reveals nothing about paid clicks, and choices follow only clicks. We design a posterior-sampling agent for it. Each period it draws a market from an exact posterior and posts the bid and discount of that market's exactly so",
-      "summary": "An online retailer launching a perishable product bids for sponsored-search clicks, discounts a bundle with an always-stocked staple and displays its remaining stock, which raises willingness to pay. It knows neither how clicks respond to its bid nor how strong and dispersed its market is, and learns both over repeated seasons from data its own decisions censor: a zero bid reveals nothing about paid clicks, and choices follow only clicks. We design a posterior-sampling agent for it. Each period it draws a market from an exact posterior and posts the bid and discount of that market's exactly so"
+      "title": "CARD: A Proof-Carrying Certificate-to-Action Interface for Relative-Measurement Graphs",
+      "link": "https://arxiv.org/abs/2611.03651",
+      "raw_summary": "Geometric certificates make mathematical claims about specified estimator objects, while robotic action requires a physical transform, a service decision, and timely proof support. We present CARD, a proof-carrying interface that keeps these objects distinct and records how they combine. Its lifted-fiber formulation separates semantic motion from witness repair and characterizes when projected and proof-carrying costs coincide. Its actionability result gives an exact useful-service law: uniform sampling without replacement produces a hypergeometric yield, while sampling from the eligible popul",
+      "summary": "Geometric certificates make mathematical claims about specified estimator objects, while robotic action requires a physical transform, a service decision, and timely proof support. We present CARD, a proof-carrying interface that keeps these objects distinct and records how they combine. Its lifted-fiber formulation separates semantic motion from witness repair and characterizes when projected and proof-carrying costs coincide. Its actionability result gives an exact useful-service law: uniform sampling without replacement produces a hypergeometric yield, while sampling from the eligible popul"
     },
     {
       "source": "ArXiv AI",
       "category": "research",
-      "title": "Early Stopping in Large Reasoning Models: A Survey and Empirical Audit of Efficiency and Reliability",
-      "link": "https://arxiv.org/abs/2611.00166",
-      "raw_summary": "Large reasoning models can improve accuracy by generating longer reasoning traces, but some of this computation may be unnecessary. Early-stopping methods aim to stop once enough reasoning is available to answer. Evaluating these methods requires accounting for the cost of deciding when to stop and the reliability of the resulting answer. We evaluate different methods across five reasoning models on mathematical and scientific reasoning, code generation, and factuality tasks by using a shared rollout replay protocol. We introduce Target-Integrated Token Efficiency (TITE) to measure efficiency ",
-      "summary": "Large reasoning models can improve accuracy by generating longer reasoning traces, but some of this computation may be unnecessary. Early-stopping methods aim to stop once enough reasoning is available to answer. Evaluating these methods requires accounting for the cost of deciding when to stop and the reliability of the resulting answer. We evaluate different methods across five reasoning models on mathematical and scientific reasoning, code generation, and factuality tasks by using a shared rollout replay protocol. We introduce Target-Integrated Token Efficiency (TITE) to measure efficiency "
+      "title": "MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication",
+      "link": "https://arxiv.org/abs/2611.03662",
+      "raw_summary": "The Model Context Protocol (MCP) connects large language model agents to external tools and services through official SDKs that implement message validation and session logic. Specification constraints omitted by these SDKs may propagate to downstream applications, highlighting the importance of SDK-level conformance testing. Yet existing MCP conformance tools mainly exercise running endpoints and reveal little about whether SDK models enforce specification requirements. We present MCPGuard, an automated LLM-based framework for detecting specification-to-SDK conformance gaps. Its structural tr",
+      "summary": "The Model Context Protocol (MCP) connects large language model agents to external tools and services through official SDKs that implement message validation and session logic. Specification constraints omitted by these SDKs may propagate to downstream applications, highlighting the importance of SDK-level conformance testing. Yet existing MCP conformance tools mainly exercise running endpoints and reveal little about whether SDK models enforce specification requirements. We present MCPGuard, an automated LLM-based framework for detecting specification-to-SDK conformance gaps. Its structural tr"
     },
     {
       "source": "ArXiv AI",
       "category": "research",
-      "title": "PatchScout: Thematic Web Data Collection via Information Foraging",
-      "link": "https://arxiv.org/abs/2611.00169",
-      "raw_summary": "Researchers often need web corpora that are not answers to a single query, but reusable collections of documents spanning many decentralized sources. We refer to this problem as thematic web data collection: assembling semantically relevant documents that share a common theme but are scattered across heterogeneous and structurally disconnected regions of the web. Existing approaches, including traversal-based methods and LLM-driven web agents, are limited by local exploration or short-horizon stopping, preventing comprehensive collection. We formulate this task as a long-horizon information fo",
-      "summary": "Researchers often need web corpora that are not answers to a single query, but reusable collections of documents spanning many decentralized sources. We refer to this problem as thematic web data collection: assembling semantically relevant documents that share a common theme but are scattered across heterogeneous and structurally disconnected regions of the web. Existing approaches, including traversal-based methods and LLM-driven web agents, are limited by local exploration or short-horizon stopping, preventing comprehensive collection. We formulate this task as a long-horizon information fo"
+      "title": "Functional-Group Knowledge Is Structured in Language Models Before It Is Spoken",
+      "link": "https://arxiv.org/abs/2611.03684",
+      "raw_summary": "Language models serve as the reasoning core of agents for chemistry and materials science, where they must interpret molecular structure before planning syntheses or proposing materials. Yet their outputs show only what they say, not what they know. Given a prompt such as ``The primary functional group in 1-Fluorobutane (CCCCF) is'', a small general-purpose model may answer ``the alkyne group'' instead of an alkyl fluoride. The output alone cannot tell whether the model failed to recognize the fluorine or recognized it and failed to say so. We address this by reading the internal representatio",
+      "summary": "Language models serve as the reasoning core of agents for chemistry and materials science, where they must interpret molecular structure before planning syntheses or proposing materials. Yet their outputs show only what they say, not what they know. Given a prompt such as ``The primary functional group in 1-Fluorobutane (CCCCF) is'', a small general-purpose model may answer ``the alkyne group'' instead of an alkyl fluoride. The output alone cannot tell whether the model failed to recognize the fluorine or recognized it and failed to say so. We address this by reading the internal representatio"
     },
     {
       "source": "ArXiv AI",
       "category": "research",
-      "title": "Reimagining Text-to-SQL: A Survey of Large Language Model Architectures and Strategies",
-      "link": "https://arxiv.org/abs/2611.00171",
-      "raw_summary": "Text-to-SQL systems translate natural language questions into executable SQL queries, democratizing access to relational data. Early approaches relied on handcrafted rules and template matching, while subsequent neural methods introduced encoder-decoder architectures, schema linking, and constrained decoding to handle increasingly complex queries. The emergence of large language models (LLMs), exemplified by systems such as ReFoRCE, Agentar-Scale-SQL, Snowflake's Arctic-Text2SQL-R1, and the modular XiYan-SQL framework, has dramatically advanced the field, pushing execution accuracy to new stat",
-      "summary": "Text-to-SQL systems translate natural language questions into executable SQL queries, democratizing access to relational data. Early approaches relied on handcrafted rules and template matching, while subsequent neural methods introduced encoder-decoder architectures, schema linking, and constrained decoding to handle increasingly complex queries. The emergence of large language models (LLMs), exemplified by systems such as ReFoRCE, Agentar-Scale-SQL, Snowflake's Arctic-Text2SQL-R1, and the modular XiYan-SQL framework, has dramatically advanced the field, pushing execution accuracy to new stat"
+      "title": "LOLPlay: Benchmarking Real-Time Visual Agents in League of Legends",
+      "link": "https://arxiv.org/abs/2611.03685",
+      "raw_summary": "Visual agents need to coordinate reasoning and action while their environment evolves during inference. We introduce LOLPlay, a benchmark in native \\emph{League of Legends} with 36 champion-specific tasks spanning resource management, combat, cooperation, and objectives. Agents interact through screenshots and mouse--keyboard actions; automated initialization and 82 executable subgoal checks distinguish partial progress from completion. Across 324 task evaluations of three models at three reasoning-effort settings, GPT-6 Astra achieves the highest task success rate of 25.0\\% at low and medium ",
+      "summary": "Visual agents need to coordinate reasoning and action while their environment evolves during inference. We introduce LOLPlay, a benchmark in native \\emph{League of Legends} with 36 champion-specific tasks spanning resource management, combat, cooperation, and objectives. Agents interact through screenshots and mouse--keyboard actions; automated initialization and 82 executable subgoal checks distinguish partial progress from completion. Across 324 task evaluations of three models at three reasoning-effort settings, GPT-6 Astra achieves the highest task success rate of 25.0\\% at low and medium "
     },
     {
       "source": "ArXiv AI",
       "category": "research",
-      "title": "AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation",
-      "link": "https://arxiv.org/abs/2611.00177",
-      "raw_summary": "Egocentric observations provide a robot-centric view of manipulation processes, capturing contact interactions and object-state changes that are important for visuomotor policy learning but difficult to observe from external cameras. However, collecting such data at scale remains expensive due to additional hardware requirements and platform-specific deployment costs. Synthesizing egocentric observations from large-scale exocentric manipulation videos provides a scalable alternative. However, existing methods struggle to synthesize physically consistent and policy-relevant egocentric videos un",
-      "summary": "Egocentric observations provide a robot-centric view of manipulation processes, capturing contact interactions and object-state changes that are important for visuomotor policy learning but difficult to observe from external cameras. However, collecting such data at scale remains expensive due to additional hardware requirements and platform-specific deployment costs. Synthesizing egocentric observations from large-scale exocentric manipulation videos provides a scalable alternative. However, existing methods struggle to synthesize physically consistent and policy-relevant egocentric videos un"
+      "title": "Training LLM Agents to Automate LLM Post-Training with RSI-Dojo",
+      "link": "https://arxiv.org/abs/2611.03698",
+      "raw_summary": "Recursive Self-Improvement (RSI) aims to enable AI systems to autonomously build and improve AI systems themselves, including models, harnesses, and underlying infrastructure. Within this broader agenda, a central capability is enabling agents to train and improve base models. However, existing studies on automated model training primarily focused on workflow- or harness-level optimizations, rather than internalizing the ability to conduct post-training into the model itself. Developing this capability requires executable model training environments that can produce high-quality trajectories d",
+      "summary": "Recursive Self-Improvement (RSI) aims to enable AI systems to autonomously build and improve AI systems themselves, including models, harnesses, and underlying infrastructure. Within this broader agenda, a central capability is enabling agents to train and improve base models. However, existing studies on automated model training primarily focused on workflow- or harness-level optimizations, rather than internalizing the ability to conduct post-training into the model itself. Developing this capability requires executable model training environments that can produce high-quality trajectories d"
     },
     {
       "source": "ArXiv ML",
       "category": "research",
-      "title": "Output-Aware Block Influence: Jacobian-Lens Weighting for Depth Pruning",
-      "link": "https://arxiv.org/abs/2611.00015",
-      "raw_summary": "Depth pruning removes entire transformer blocks and therefore depends on a reliable criterion for identifying which blocks can be removed. Block Influence (BI) ranks blocks by how minimally they rotate the hidden state. However, local redundancy does not necessarily imply downstream irrelevance. We address this limitation using the Jacobian Lens (J-Lens) neural artifact, a map transporting perturbations at a layer to the final residual stream. At a common sparsity level, pruning scores applying J-Lens transportation to $BI$, what we call $J-BI$, were found to improve post-pruning accuracy by u",
-      "summary": "Depth pruning removes entire transformer blocks and therefore depends on a reliable criterion for identifying which blocks can be removed. Block Influence (BI) ranks blocks by how minimally they rotate the hidden state. However, local redundancy does not necessarily imply downstream irrelevance. We address this limitation using the Jacobian Lens (J-Lens) neural artifact, a map transporting perturbations at a layer to the final residual stream. At a common sparsity level, pruning scores applying J-Lens transportation to $BI$, what we call $J-BI$, were found to improve post-pruning accuracy by u"
+      "title": "Latent Cluster Separation as a Regularizer for Lifelong Anomaly Detection",
+      "link": "https://arxiv.org/abs/2611.03652",
+      "raw_summary": "Lifelong (continual) anomaly detection systems must learn a sequence of tasks without forgetting how to recognize anomaly types seen earlier -- a property known as backward transfer. A common way to try to improve backward transfer is to reshape a model's internal representation around learnable concept centroids, typically coupled with a new way of scoring anomalies based on distance to those centroids. Because these two design choices are usually introduced together, it is unclear which one is actually responsible for any performance gain. In this paper, we unbundle the two mechanisms within",
+      "summary": "Lifelong (continual) anomaly detection systems must learn a sequence of tasks without forgetting how to recognize anomaly types seen earlier -- a property known as backward transfer. A common way to try to improve backward transfer is to reshape a model's internal representation around learnable concept centroids, typically coupled with a new way of scoring anomalies based on distance to those centroids. Because these two design choices are usually introduced together, it is unclear which one is actually responsible for any performance gain. In this paper, we unbundle the two mechanisms within"
     },
     {
       "source": "ArXiv ML",
       "category": "research",
-      "title": "FB-MOAC: A Reinforcement Learning Algorithm for Forward-Backward Markov Decision Processes",
-      "link": "https://arxiv.org/abs/2611.00130",
-      "raw_summary": "Reinforcement learning (RL) algorithms are effective in solving problems that can be modeled as Markov decision processes (MDPs).\n  These algorithms primarily target forward MDPs whose dynamics evolve over time from an initial state.\n  However, several important problems in different scenarios including stochastic control and network systems exhibit both a forward and a backward dynamics. As a consequence, they cannot be expressed as a standard MDP, thereby calling\n  for a novel theory for RL in this context.\n  Accordingly, this work introduces the concept of Forward-Backward Markov Decision P",
-      "summary": "Reinforcement learning (RL) algorithms are effective in solving problems that can be modeled as Markov decision processes (MDPs).\n  These algorithms primarily target forward MDPs whose dynamics evolve over time from an initial state.\n  However, several important problems in different scenarios including stochastic control and network systems exhibit both a forward and a backward dynamics. As a consequence, they cannot be expressed as a standard MDP, thereby calling\n  for a novel theory for RL in this context.\n  Accordingly, this work introduces the concept of Forward-Backward Markov Decision P"
+      "title": "Four Extensions of the Universal Law of Robustness: Log-Concave Covariates, Heterogeneous Mixtures, Vector-Valued Predictors, and Markovian Data",
+      "link": "https://arxiv.org/abs/2611.03653",
+      "raw_summary": "Bubeck and Sellke's universal law of robustness says that fitting $n$ noisy samples below the noise level with a class of $p$ real parameters forces a Lipschitz constant of order $\\sqrt{nd/p}$, when the covariate distribution on $\\mathbb{R}^d$ is isoperimetric: smooth interpolation costs a factor $d$ of overparametrization. Its hypotheses are Gaussian-type concentration, a homogeneous covariate law, scalar outputs, and independent samples; we relax each one. Exponential concentration suffices, at the unchanged rate and absolute constant and at the price of a capacity burn-in, some form of whic",
+      "summary": "Bubeck and Sellke's universal law of robustness says that fitting $n$ noisy samples below the noise level with a class of $p$ real parameters forces a Lipschitz constant of order $\\sqrt{nd/p}$, when the covariate distribution on $\\mathbb{R}^d$ is isoperimetric: smooth interpolation costs a factor $d$ of overparametrization. Its hypotheses are Gaussian-type concentration, a homogeneous covariate law, scalar outputs, and independent samples; we relax each one. Exponential concentration suffices, at the unchanged rate and absolute constant and at the price of a capacity burn-in, some form of whic"
     },
     {
       "source": "ArXiv ML",
       "category": "research",
-      "title": "Interpretable structural temperature scaling for calibrating graph neural networks and point-cloud segmentation",
-      "link": "https://arxiv.org/abs/2611.00175",
-      "raw_summary": "Graph-aware calibrators make graph neural networks (GNNs) more trustworthy by predicting a temperature for each node, usually with auxiliary networks whose decisions are hard to inspect. We propose Interpretable Structural Temperature Scaling (ISTS), a twelve-parameter linear model that sets each node's temperature from named descriptors of its confidence, neighbourhood and closeness to labelled nodes, so every temperature traces back to descriptor contributions. ISTS preserves predictions, and cross-validated regularisation lets the calibration data decide how far the model departs from tempe",
-      "summary": "Graph-aware calibrators make graph neural networks (GNNs) more trustworthy by predicting a temperature for each node, usually with auxiliary networks whose decisions are hard to inspect. We propose Interpretable Structural Temperature Scaling (ISTS), a twelve-parameter linear model that sets each node's temperature from named descriptors of its confidence, neighbourhood and closeness to labelled nodes, so every temperature traces back to descriptor contributions. ISTS preserves predictions, and cross-validated regularisation lets the calibration data decide how far the model departs from tempe"
+      "title": "Towards Automatic Heart Murmur Characterization from Multi-spot Phonocardiograms",
+      "link": "https://arxiv.org/abs/2611.03654",
+      "raw_summary": "Cardiac auscultation traditionally detects the presence of a heart murmur, but clinicians further characterize it by timing, shape, pitch, quality, and grade. Most automatic phonocardiogram analysis systems stop at binary detection and do not estimate this richer description. In this work, we formulate automatic murmur characterization as five patient-level classification tasks and compare three multi-spot strategies on recordings from the aortic, pulmonary, mitral, and tricuspid auscultation locations. First, classical and deep-learning classifiers are trained independently at each location, ",
+      "summary": "Cardiac auscultation traditionally detects the presence of a heart murmur, but clinicians further characterize it by timing, shape, pitch, quality, and grade. Most automatic phonocardiogram analysis systems stop at binary detection and do not estimate this richer description. In this work, we formulate automatic murmur characterization as five patient-level classification tasks and compare three multi-spot strategies on recordings from the aortic, pulmonary, mitral, and tricuspid auscultation locations. First, classical and deep-learning classifiers are trained independently at each location, "
     },
     {
       "source": "ArXiv ML",
       "category": "research",
-      "title": "ProLand: A New Infeasible Manifold Optimization Method for LoRA Fine-Tuning",
-      "link": "https://arxiv.org/abs/2611.00236",
-      "raw_summary": "Low-rank adaptation (LoRA) enables parameter-efficient fine-tuning but can suffer from redundant basis directions. Constraining the basis factor to the Stiefel manifold addresses this redundancy through orthonormality. Landing methods allow temporarily infeasible iterates to explore a neighborhood of the manifold while progressively restoring orthogonality without per-step retractions. To improve optimization efficiency while retaining this flexibility, we introduce ProLand (Product-space Landing), a retraction-free optimizer that combines coordinated factor updates with Muon-style spectral di",
-      "summary": "Low-rank adaptation (LoRA) enables parameter-efficient fine-tuning but can suffer from redundant basis directions. Constraining the basis factor to the Stiefel manifold addresses this redundancy through orthonormality. Landing methods allow temporarily infeasible iterates to explore a neighborhood of the manifold while progressively restoring orthogonality without per-step retractions. To improve optimization efficiency while retaining this flexibility, we introduce ProLand (Product-space Landing), a retraction-free optimizer that combines coordinated factor updates with Muon-style spectral di"
+      "title": "Mixture of Wide Experts: Sparse Routing for Interpretable Native Coordinates",
+      "link": "https://arxiv.org/abs/2611.03655",
+      "raw_summary": "Language models often spread a concept across many internal dimensions, making their features difficult to interpret. Sparse autoencoders (SAEs) recover clearer features after training. We ask whether models can instead learn interpretable output coordinates directly. We introduce Mixture of Wide Experts (MoWE), a sparse feed-forward layer in which selected experts read the full representation but write to fixed, disjoint output coordinates. On a controlled task with known hidden causes, this design preserves predictive performance while localizing causes more clearly than dense and standard m",
+      "summary": "Language models often spread a concept across many internal dimensions, making their features difficult to interpret. Sparse autoencoders (SAEs) recover clearer features after training. We ask whether models can instead learn interpretable output coordinates directly. We introduce Mixture of Wide Experts (MoWE), a sparse feed-forward layer in which selected experts read the full representation but write to fixed, disjoint output coordinates. On a controlled task with known hidden causes, this design preserves predictive performance while localizing causes more clearly than dense and standard m"
     },
     {
       "source": "ArXiv ML",
       "category": "research",
-      "title": "IsoAlign: Isoform-Aware DNA-Protein Alignment via Joint-Embedding Predictive Architectures",
-      "link": "https://arxiv.org/abs/2611.00241",
-      "raw_summary": "Genomic foundation models (GFMs) have emerged as a powerful paradigm for learning DNA sequence representations, yet existing self-supervised pretraining strategies overlook alternative splicing and underperform compared to specialized models. To address this gap, we introduce IsoAlign, a multimodal framework that grounds genomic pretraining in isoform-aware DNA-protein alignment to learn biologically meaningful representations. IsoAlign aligns transcripts to their corresponding protein isoforms, capturing both coding sequences and broader regulatory contexts, using two Joint-Embedding Predicti",
-      "summary": "Genomic foundation models (GFMs) have emerged as a powerful paradigm for learning DNA sequence representations, yet existing self-supervised pretraining strategies overlook alternative splicing and underperform compared to specialized models. To address this gap, we introduce IsoAlign, a multimodal framework that grounds genomic pretraining in isoform-aware DNA-protein alignment to learn biologically meaningful representations. IsoAlign aligns transcripts to their corresponding protein isoforms, capturing both coding sequences and broader regulatory contexts, using two Joint-Embedding Predicti"
+      "title": "Stress-Testing the Robustness of LLM-Based Causal Inference",
+      "link": "https://arxiv.org/abs/2611.03656",
+      "raw_summary": "Why do some of the world's most powerful Artificial Intelligence (AI) systems still struggle to reason about cause and effect? Causal discovery, the ability to discern the underlying drivers of a system, is fundamental to scientific inquiry and has traditionally relied on structured data and statistical methods. Recently, Large Language Models (LLMs) have been explored as an alternative paradigm for causal inference, leveraging their broad knowledge and reasoning capabilities. Yet, despite their linguistic fluency, LLMs often rely on surface-level pattern recognition rather than genuine causal",
+      "summary": "Why do some of the world's most powerful Artificial Intelligence (AI) systems still struggle to reason about cause and effect? Causal discovery, the ability to discern the underlying drivers of a system, is fundamental to scientific inquiry and has traditionally relied on structured data and statistical methods. Recently, Large Language Models (LLMs) have been explored as an alternative paradigm for causal inference, leveraging their broad knowledge and reasoning capabilities. Yet, despite their linguistic fluency, LLMs often rely on surface-level pattern recognition rather than genuine causal"
     },
     {
       "source": "ArXiv ML",
       "category": "research",
-      "title": "KINDER: Kernel-based Independence for Fair Representation Learning via Prototype-space Erasure",
-      "link": "https://arxiv.org/abs/2611.00264",
-      "raw_summary": "Concept erasure is a prominent approach to achieving fairness in machine learning through the removal of sensitive attributes from learned representations. Prior concept erasure methods typically define debiasing indirectly through the failure of a chosen adversary, probe, or fairness penalty, which makes the target of erasure dependent on a particular decoder family or optimization setup. We introduce KINDER, which directly removes sensitive-attribute information from intermediate representations with respect to a chosen family of prototype functionals, and is compatible with any deep model c",
-      "summary": "Concept erasure is a prominent approach to achieving fairness in machine learning through the removal of sensitive attributes from learned representations. Prior concept erasure methods typically define debiasing indirectly through the failure of a chosen adversary, probe, or fairness penalty, which makes the target of erasure dependent on a particular decoder family or optimization setup. We introduce KINDER, which directly removes sensitive-attribute information from intermediate representations with respect to a chosen family of prototype functionals, and is compatible with any deep model c"
+      "title": "Learning Directional Randers Geometry for Latent-Space Exploration",
+      "link": "https://arxiv.org/abs/2611.03675",
+      "raw_summary": "Deep neural networks extract powerful latent representations from images, enabling fast and efficient downstream analysis. However, these latent spaces lack explicit geometric structure, leading to possibly poor interpolation fidelity and misleading extrapolation. Latent interpolation techniques assume symmetric transition costs which are often not the case for real world data. Their symmetric nature cannot capture directional processes, such as disease progression, where certain transitions are impossible (e.g. tumor growth dynamics or cognitive improvement in Alzheimer's disease). Although R",
+      "summary": "Deep neural networks extract powerful latent representations from images, enabling fast and efficient downstream analysis. However, these latent spaces lack explicit geometric structure, leading to possibly poor interpolation fidelity and misleading extrapolation. Latent interpolation techniques assume symmetric transition costs which are often not the case for real world data. Their symmetric nature cannot capture directional processes, such as disease progression, where certain transitions are impossible (e.g. tumor growth dynamics or cognitive improvement in Alzheimer's disease). Although R"
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on Nov. 4",
-      "link": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/",
-      "raw_summary": "On Nov. 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insights and connections. Register before prices increase at the door.",
-      "summary": "On Nov. 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insights and connections. Register before prices increase at the door."
+      "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+      "link": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
+      "raw_summary": "Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today.",
+      "summary": "Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Tomorrow: TechCrunch Founder Summit takes over Boston and when pass rates increase",
-      "link": "https://techcrunch.com/2026/11/03/tomorrow-techcrunch-founder-summit-takes-over-boston-and-when-pass-rates-increase/",
-      "raw_summary": "Secure your TechCrunch Founder Summit pass savings before prices increase tomorrow at 9 a.m. ET. Save up to $100 on your pass, and get a second for free.",
-      "summary": "Secure your TechCrunch Founder Summit pass savings before prices increase tomorrow at 9 a.m. ET. Save up to $100 on your pass, and get a second for free."
+      "title": "Anthropic is working on a system to prove AI models\u2019 identity",
+      "link": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "raw_summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+      "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Apple Watch\u2019s AI features for rewinding and recapping conversations begin beta testing",
-      "link": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
-      "raw_summary": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
-      "summary": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations."
+      "title": "Data centers are turning to old jet engines as the wait for power grows",
+      "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "raw_summary": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
+      "summary": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
-      "link": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
-      "raw_summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
-      "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages."
+      "title": "Ted Schlein\u2019s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "link": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "raw_summary": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
+      "summary": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Apple may try to increase revenue by doing\u2026something with third-party AI apps",
-      "link": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
-      "raw_summary": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
-      "summary": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call."
+      "title": "Hiding inside Palantir\u2019s skyrocketing quarter is a foreboding signal",
+      "link": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+      "raw_summary": "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever.",
+      "summary": "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever."
     },
     {
       "source": "TechCrunch AI",
       "category": "industry",
-      "title": "Y Combinator\u2019s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
-      "link": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-      "raw_summary": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis\u201d and barely sleeps sometimes because he\u2019s so excited to be working with his AI agents. On a new episode of Walter Isaacson\u2019s podcast,\u00a0The Builders, Tan put a price tag on his passion.",
-      "summary": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis\u201d and barely sleeps sometimes because he\u2019s so excited to be working with his AI agents. On a new episode of Walter Isaacson\u2019s podcast,\u00a0The Builders, Tan put a price tag on his passion."
+      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "link": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "raw_summary": "The five-year-old startup raised a $1.3  billion round led by Bessemer.",
+      "summary": "The five-year-old startup raised a $1.3  billion round led by Bessemer."
+    },
+    {
+      "source": "MIT Tech Review",
+      "category": "industry",
+      "title": "The Download: blended meat, restored sight, and the agentic web",
+      "link": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
+      "raw_summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. These startups hope \u201cblended\u201d food will cut our appetite for red meat&#160; In the fall of 2025, Jeff Dodge served hungry students steaming marinara sauce and meatballs. The students loved them:&#8230;",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. These startups hope \u201cblended\u201d food will cut our appetite for red meat&#160; In the fall of 2025, Jeff Dodge served hungry students steaming marinara sauce and meatballs. The students loved them:&#8230;"
+    },
+    {
+      "source": "MIT Tech Review",
+      "category": "industry",
+      "title": "Securing the agentic enterprise with data lineage",
+      "link": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "raw_summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it\u2019s&#8230;",
+      "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it\u2019s&#8230;"
     },
     {
       "source": "MIT Tech Review",
@@ -183,22 +199,6 @@
       "link": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
       "raw_summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate&#8230;",
       "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate&#8230;"
-    },
-    {
-      "source": "MIT Tech Review",
-      "category": "industry",
-      "title": "Stop counting tokens, start counting what ships",
-      "link": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
-      "raw_summary": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls&#8230;",
-      "summary": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls&#8230;"
-    },
-    {
-      "source": "MIT Tech Review",
-      "category": "industry",
-      "title": "The Download: the agentic web arrives and the drive for safer roads",
-      "link": "https://www.technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths/",
-      "raw_summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The agentic web is here In 2001, a decade after inventing the World Wide Web, Tim Berners-Lee articulated a new vision: an internet navigated by autonomous software agents that address our&#8230;",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The agentic web is here In 2001, a decade after inventing the World Wide Web, Tim Berners-Lee articulated a new vision: an internet navigated by autonomous software agents that address our&#8230;"
     }
   ]
 }
